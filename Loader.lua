@@ -33,7 +33,7 @@ local headless = false;
 
 
 
--- black vamp
+-- black vamp outfit
 CharSection:AddButton("Epic 1", "Black Epic vamp fit", function()
     local epic1
     for i,v in pairs(player.Character:GetChildren()) do
@@ -860,6 +860,7 @@ player.Character["LeftFoot"].BrickColor = q
 player.Character["RightHand"].BrickColor = q
 player.Character["LeftHand"].BrickColor = q
 end)
+-- rge outfit
 CharSection:AddButton("RGE", "Red Glowing Eyes and SKOTN fit", function()
     for i,v in pairs(player.Character:GetChildren()) do
 		if v:IsA("Accessory") then
