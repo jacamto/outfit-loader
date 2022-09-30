@@ -6,7 +6,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage");
 local CoreGui = game:GetService("CoreGui");
 local Workspace = game:GetService("Workspace");
 
--- Local Player
+-- jacato
 local player = game.Players.e8qt;
 local locplayer = game.Players.e8qt.Character;
 
