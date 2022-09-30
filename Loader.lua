@@ -838,12 +838,10 @@ end)
 
 
 OtherSection:AddButton("Headless on", "Headless", function()
-    game.Players.e8qt.Character.Head.Transparency = 0.99
-    game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://0"
+    game.Players.e8qt.Character.Head.MeshId = "rbxassetid://134079402"
 end) -- headless on function
 OtherSection:AddButton("Headless off", "Headless", function()
     game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
-    game.Players.e8qt.Character.Head.Transparency = 0
     if game.Players.e8qt.Character:FindFirstChild("VictorianBlack") then
     game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://179693472"
     elseif game.Players.e8qt.Character:FindFirstChild("SpikedChainHeadphones") then
@@ -2326,12 +2324,10 @@ end)
 
 
 OtherSection2:AddButton("Headless on", "Headless", function()
-    game.Players.destroyingtoxickppl.Character.Head.Transparency = 0.99
-    game.Players.destroyingtoxickppl.Character.Head.face.Texture = "rbxassetid://0"
+    game.Players.destroyingtoxickppl.Character.Head.MeshId = "rbxassetid://134079402"
 end) -- headless on function
 OtherSection2:AddButton("Headless off", "Headless", function()
     game.Players.destroyingtoxickppl.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
-    game.Players.destroyingtoxickppl.Character.Head.Transparency = 0
     if game.Players.destroyingtoxickppl.Character:FindFirstChild("EmpororOfTheNight") then
     game.Players.destroyingtoxickppl.Character.Head.face.Texture = "rbxassetid://494290547"
     elseif game.Players.destroyingtoxickppl.Character:FindFirstChild("KingOfTheNight_Silver") then
