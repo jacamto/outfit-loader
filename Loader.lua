@@ -13,16 +13,11 @@ local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/jacamto/L
 local Window = lib:CreateWindow("Character Gui")
 
 -- Create Pages
-local MainPage = Window:NewTab("Main")
+local MainPage = Window:NewTab("Jacato")
 
 -- Create Sections
 local CharSection = MainPage:AddSection("Character")
 local OtherSection = MainPage:AddSection("Headless and Star")
-
--- GUI Toggles / Settings
-local star = false;
-local headless = false;
-
 
 
 -- black vamp outfit
@@ -1103,60 +1098,29 @@ game.Players.e8qt.Character["RightHand"].BrickColor = q
 game.Players.e8qt.Character["LeftHand"].BrickColor = q
 end)
 
-OtherSection:AddToggle("Headless", "Toggleable Headless", false, function(bool)
-    headless = bool
-end) -- headless function
-OtherSection:AddToggle("Star", "Toggleable Star", false, function(bool)
-    star = bool
-end) -- star function
+
+OtherSection:AddButton("Headless on", "Headless", function()
+    game.Players.e8qt.Character.Head.Transparency = 0.99
+    game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://0"
+end) -- headless on function
+OtherSection:AddButton("Headless off", "Headless", function()
+    game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
+    game.Players.e8qt.Character.Head.Transparency = 0
+    if game.Players.e8qt.Character:FindFirstChild("VictorianBlack") then
+    game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://179693472"
+    elseif game.Players.e8qt.Character:FindFirstChild("SpikedChainHeadphones") then
+    game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://508490451" 
+    end
+end) -- headless off function
 
 
-task.spawn(function()
-    while task.wait() do
-        if headless == true then
-            game.Players.e8qt.Character.Head.Transparency = 0.99
-            game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://0"
-        end
-    end
-end) -- puts on headless
-task.spawn(function()
-    while task.wait() do
-        if headless == false then
-            game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
-            game.Players.e8qt.Character.Head.Transparency = 0
-            if game.Players.e8qt.Character:FindFirstChild("VictorianBlack") then
-                game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://179693472"
-            end
-        end
-    end
-end) -- removes headless and puts on cheeks (check for rge)
-task.spawn(function()
-    while task.wait() do
-        if headless == false then
-            game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
-            game.Players.e8qt.Character.Head.Transparency = 0
-            if game.Players.e8qt.Character:FindFirstChild("SpikedChainHeadphones") then
-                game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://508490451"
-            end
-        end
-    end
-end) -- removes headless and puts on cheeks (check for epic fits)
+OtherSection:AddButton("Star on", "Star", function()
+    game.Players.e8qt.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')
+end) -- star on function
+OtherSection:AddButton("Star off", "Star", function()
+    game.Players.e8qt.Character.Humanoid.DisplayName = ('jacato')
+end) -- star off function
 
-
-task.spawn(function()
-    while task.wait() do
-        if star == true then
-            game.Players.e8qt.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')
-        end
-    end
-end) -- my star thing
-task.spawn(function()
-    while task.wait() do
-        if star == false then
-            game.Players.e8qt.Character.Humanoid.DisplayName = ('jacato')
-        end
-    end
-end) -- makes my display normal
 
 game:GetService("Players").LocalPlayer:GetMouse().KeyDown:connect(function(dbb)
 if string.lower(dbb)=="v"then if game:GetService("CoreGui").FluxHub.Frame.Visible==true then game:GetService("CoreGui").FluxHub.Frame.Visible=false elseif game:GetService("CoreGui").FluxHub.Frame.Visible==false then
