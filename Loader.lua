@@ -2,7 +2,6 @@
 repeat task.wait() until game:IsLoaded();
 
 -- Services
-local epic1
 local ReplicatedStorage = game:GetService("ReplicatedStorage");
 local CoreGui = game:GetService("CoreGui");
 local Workspace = game:GetService("Workspace");
@@ -35,7 +34,6 @@ local headless = false;
 
 -- black vamp outfit
 CharSection:AddButton("Epic 1", "Black Epic vamp fit", function()
-    local epic1
     for i,v in pairs(player.Character:GetChildren()) do
 		if v:IsA("Accessory") then
 			v:Destroy()
