@@ -2364,7 +2364,7 @@ end) -- heart off function
 
 
 -- skinny/big
-TheOtherSection:AddButton("Skinny/Big", "Makes u either depending on ur scaling", function()
+TheOtherSection:AddButton("Skinny/Big", "(use before loading a outfit)", function()
     local LocalPlayer = game:GetService("Players").LocalPlayer
     local Character = LocalPlayer.Character
     local Humanoid = Character:FindFirstChildOfClass("Humanoid")
