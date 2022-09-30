@@ -18,7 +18,7 @@ local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/jacamto/L
 local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/jacamto/esp/main/highlightoutline.lua"))()
 
 -- Main Window
-local Window = lib:CreateWindow("character gui")
+local Window = lib:CreateWindow("Character Gui")
 
 -- Create Pages
 local MainPage = Window:NewTab("Main")
@@ -1154,14 +1154,14 @@ end) -- removes headless and puts on cheeks (check for epic fits)
 task.spawn(function()
     while task.wait() do
         if star == true then
-            player.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')
+            locplayer.Humanoid.DisplayName = ('[⭐]luluuluvrr')
         end
     end
 end) -- my star thing
 task.spawn(function()
     while task.wait() do
         if star == false then
-            player.Character.Humanoid.DisplayName = ('jacato')
+            locplayer.Humanoid.DisplayName = ('jacato')
         end
     end
 end) -- makes my display normal
