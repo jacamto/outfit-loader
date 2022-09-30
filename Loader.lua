@@ -2411,7 +2411,7 @@ TheOtherSection:AddButton("Skinny/Big", "(use before loading a outfit)", functio
     wait(0.5)
     Humanoid:FindFirstChild("HeadScale"):Destroy()
     wait(1)
-end) -- heart off function
+end) -- skinny/big function
 
 
 game:GetService("Players").LocalPlayer:GetMouse().KeyDown:connect(function(dbb)
