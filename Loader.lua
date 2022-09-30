@@ -24,6 +24,9 @@ local CharSection2 = SistersPage:AddSection("Character")
 local OtherSection2 = SistersPage:AddSection("Headless/Korblox and Heart")
 local TheOtherSection = OtherPage:AddSection("Skinny/Big")
 
+-- Anti AFK
+for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
+
 
 -- black vamp outfit
 CharSection:AddButton("Epic fit", "Black Epic vamp fit", function()
