@@ -838,10 +838,12 @@ end)
 
 
 OtherSection:AddButton("Headless on", "Headless", function()
-    game.Players.e8qt.Character.Head.MeshId = "rbxassetid://134079402"
+    game.Players.e8qt.Character.Head.Transparency = 0.99
+    game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://0"
 end) -- headless on function
 OtherSection:AddButton("Headless off", "Headless", function()
     game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
+    game.Players.e8qt.Character.Head.Transparency = 0
     if game.Players.e8qt.Character:FindFirstChild("VictorianBlack") then
     game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://179693472"
     elseif game.Players.e8qt.Character:FindFirstChild("SpikedChainHeadphones") then
@@ -1427,6 +1429,14 @@ game.Players.destroyingtoxickppl.Character["RightFoot"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["LeftFoot"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["RightHand"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["LeftHand"].BrickColor = q
+Workspace.Players.destroyingtoxickppl["White Messy Front Swoop"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["White Fluffy Messy Boy Hair"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["Material Boy Middle Part in White"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["Cat Tail"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.KemonoCatWhiteEars.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["Shining Star Earrings"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["Meshes/three style bob hairs ugc_Cube.005Accessory"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.EmpororOfTheNight.Handle.CanCollide = false
 game.Players.destroyingtoxickppl.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=10921301576"
 game.Players.destroyingtoxickppl.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=10921302207"
 game.Players.destroyingtoxickppl.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=10921283326"
@@ -1842,6 +1852,13 @@ game.Players.destroyingtoxickppl.Character["RightFoot"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["LeftFoot"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["RightHand"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["LeftHand"].BrickColor = q
+Workspace.Players.destroyingtoxickppl.pigAccessory.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["pigtails long"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.KingOfTheNight_Silver.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.NewSideBangsCaramelAccessory.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.FashionistaBangsAccessory.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.SweptBangsAccessory.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.Bling.Handle.CanCollide = false
 game.Players.destroyingtoxickppl.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=10921258489"
 game.Players.destroyingtoxickppl.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=10921259953"
 game.Players.destroyingtoxickppl.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=10921283326"
@@ -2311,6 +2328,13 @@ game.Players.destroyingtoxickppl.Character["RightFoot"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["LeftFoot"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["RightHand"].BrickColor = q
 game.Players.destroyingtoxickppl.Character["LeftHand"].BrickColor = q
+Workspace.Players.destroyingtoxickppl.ValkyrieHelm.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["Ruffled Headband"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.SweptBangsAccessory.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.NewSideBangsCaramelAccessory.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["AnimeSet(BANGS)Accessory"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["Heart Nose Piercing 3.0 SilverAccessory"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["801"].Handle.CanCollide = false
 game.Players.destroyingtoxickppl.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=10921258489"
 game.Players.destroyingtoxickppl.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=10921259953"
 game.Players.destroyingtoxickppl.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=10921283326"
@@ -2324,10 +2348,12 @@ end)
 
 
 OtherSection2:AddButton("Headless on", "Headless", function()
-    game.Players.destroyingtoxickppl.Character.Head.MeshId = "rbxassetid://134079402"
+    game.Players.destroyingtoxickppl.Character.Head.Transparency = 0.99
+    game.Players.destroyingtoxickppl.Character.Head.face.Texture = "rbxassetid://0"
 end) -- headless on function
 OtherSection2:AddButton("Headless off", "Headless", function()
     game.Players.destroyingtoxickppl.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
+    game.Players.destroyingtoxickppl.Character.Head.Transparency = 0
     if game.Players.destroyingtoxickppl.Character:FindFirstChild("EmpororOfTheNight") then
     game.Players.destroyingtoxickppl.Character.Head.face.Texture = "rbxassetid://494290547"
     elseif game.Players.destroyingtoxickppl.Character:FindFirstChild("KingOfTheNight_Silver") then
