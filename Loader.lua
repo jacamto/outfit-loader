@@ -1433,6 +1433,7 @@ Workspace.Players.destroyingtoxickppl["White Messy Front Swoop"].Handle.CanColli
 Workspace.Players.destroyingtoxickppl["White Fluffy Messy Boy Hair"].Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Material Boy Middle Part in White"].Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Cat Tail"].Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl.MeshPartAccessory.Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl.KemonoCatWhiteEars.Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Shining Star Earrings"].Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Meshes/three style bob hairs ugc_Cube.005Accessory"].Handle.CanCollide = false
