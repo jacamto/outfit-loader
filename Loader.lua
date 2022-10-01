@@ -838,12 +838,10 @@ end)
 
 
 OtherSection:AddButton("Headless on", "Headless", function()
-    game.Players.e8qt.Character.Head.Transparency = 0.99
-    game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://0"
+    game.Players.e8qt.Character.Head.MeshId = "rbxassetid://134079402"
 end) -- headless on function
 OtherSection:AddButton("Headless off", "Headless", function()
     game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
-    game.Players.e8qt.Character.Head.Transparency = 0
     if game.Players.e8qt.Character:FindFirstChild("VictorianBlack") then
     game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://179693472"
     elseif game.Players.e8qt.Character:FindFirstChild("SpikedChainHeadphones") then
@@ -1412,8 +1410,7 @@ CharSection2:AddButton("GEOTN furry", "Fit from sisters main account : )", funct
         k(game.Players.destroyingtoxickppl.Character, _)
         game.Players.destroyingtoxickppl.Character.Shirt.ShirtTemplate = "rbxassetid://0"
         game.Players.destroyingtoxickppl.Character.Pants.PantsTemplate = "rbxassetid://6521666486"
-        game.Players.destroyingtoxickppl.Character.Head.Transparency = 0.99
-        game.Players.destroyingtoxickppl.Character.Head.face.Texture = "rbxassetid://0"
+        game.Players.destroyingtoxickppl.Character.Head.MeshId = "rbxassetid://134079402"
 q = BrickColor.new("Institutional white")
 game.Players.destroyingtoxickppl.Character.Head.BrickColor = q
 game.Players.destroyingtoxickppl.Character.UpperTorso.BrickColor = q
@@ -1433,7 +1430,7 @@ Workspace.Players.destroyingtoxickppl["White Messy Front Swoop"].Handle.CanColli
 Workspace.Players.destroyingtoxickppl["White Fluffy Messy Boy Hair"].Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Material Boy Middle Part in White"].Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Cat Tail"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl.MeshPartAccessory.Handle.CanCollide = false
+Workspace.Players.destroyingtoxickppl["MeshPartAccessory"].Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl.KemonoCatWhiteEars.Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Shining Star Earrings"].Handle.CanCollide = false
 Workspace.Players.destroyingtoxickppl["Meshes/three style bob hairs ugc_Cube.005Accessory"].Handle.CanCollide = false
@@ -2349,12 +2346,10 @@ end)
 
 
 OtherSection2:AddButton("Headless on", "Headless", function()
-    game.Players.destroyingtoxickppl.Character.Head.Transparency = 0.99
-    game.Players.destroyingtoxickppl.Character.Head.face.Texture = "rbxassetid://0"
+    game.Players.destroyingtoxickppl.Character.Head.MeshId = "rbxassetid://134079402"
 end) -- headless on function
 OtherSection2:AddButton("Headless off", "Headless", function()
     game.Players.destroyingtoxickppl.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
-    game.Players.destroyingtoxickppl.Character.Head.Transparency = 0
     if game.Players.destroyingtoxickppl.Character:FindFirstChild("EmpororOfTheNight") then
     game.Players.destroyingtoxickppl.Character.Head.face.Texture = "rbxassetid://494290547"
     elseif game.Players.destroyingtoxickppl.Character:FindFirstChild("KingOfTheNight_Silver") then
