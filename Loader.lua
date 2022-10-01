@@ -386,12 +386,12 @@ game.Players.e8qt.Character["RightFoot"].BrickColor = e
 game.Players.e8qt.Character["LeftFoot"].BrickColor = q
 game.Players.e8qt.Character["RightHand"].BrickColor = q
 game.Players.e8qt.Character["LeftHand"].BrickColor = q
-Workspace.Players.destroyingtoxickppl["BigMessyHairstyle"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["Awesome Mouth"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["Vamp Tooth"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["SpikedChainHeadphones"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["SharpHairstyle"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["CoolHairstyleAccessory"].Handle.CanCollide = false
+Workspace.Players.e8qt["BigMessyHairstyle"].Handle.CanCollide = false
+Workspace.Players.e8qt["Awesome Mouth"].Handle.CanCollide = false
+Workspace.Players.e8qt["Vamp Tooth"].Handle.CanCollide = false
+Workspace.Players.e8qt["SpikedChainHeadphones"].Handle.CanCollide = false
+Workspace.Players.e8qt["SharpHairstyle"].Handle.CanCollide = false
+Workspace.Players.e8qt["CoolHairstyleAccessory"].Handle.CanCollide = false
 end)
 -- black fit
 CharSection:AddButton("Black fit", "Tiktok", function()
@@ -589,9 +589,9 @@ game.Players.e8qt.Character["RightFoot"].BrickColor = e
 game.Players.e8qt.Character["LeftFoot"].BrickColor = q
 game.Players.e8qt.Character["RightHand"].BrickColor = q
 game.Players.e8qt.Character["LeftHand"].BrickColor = q
-Workspace.Players.destroyingtoxickppl["MessyHairBrown"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["Scissors"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["Eyepatch"].Handle.CanCollide = false
+Workspace.Players.e8qt["MessyHairBrown"].Handle.CanCollide = false
+Workspace.Players.e8qt["Scissors"].Handle.CanCollide = false
+Workspace.Players.e8qt["Eyepatch"].Handle.CanCollide = false
 end)
 -- rge outfit
 CharSection:AddButton("RGE", "Red Glowing Eyes and SKOTN fit", function()
@@ -843,10 +843,10 @@ game.Players.e8qt.Character["RightFoot"].BrickColor = e
 game.Players.e8qt.Character["LeftFoot"].BrickColor = q
 game.Players.e8qt.Character["RightHand"].BrickColor = q
 game.Players.e8qt.Character["LeftHand"].BrickColor = q
-Workspace.Players.destroyingtoxickppl["MeshPartAccessory"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["VictorianBlack"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["MessyHairBrown"].Handle.CanCollide = false
-Workspace.Players.destroyingtoxickppl["KingOfTheNight_Silver"].Handle.CanCollide = false
+Workspace.Players.e8qt["MeshPartAccessory"].Handle.CanCollide = false
+Workspace.Players.e8qt["VictorianBlack"].Handle.CanCollide = false
+Workspace.Players.e8qt["MessyHairBrown"].Handle.CanCollide = false
+Workspace.Players.e8qt["KingOfTheNight_Silver"].Handle.CanCollide = false
 end)
 
 
