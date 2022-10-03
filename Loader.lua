@@ -689,7 +689,7 @@ OtherSection:AddButton("Headless on", "Headless", function()
     game.Players.e8qt.Character.Head.MeshId = "rbxassetid://134079402"
 end) -- headless on function
 OtherSection:AddButton("Headless off", "Headless", function()
-    game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
+    game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=7430070993"
     if game.Players.e8qt.Character:FindFirstChild("VictorianBlack") then
     game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://179693472"
     elseif game.Players.e8qt.Character:FindFirstChild("SpikedChainHeadphones") then
