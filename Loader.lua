@@ -29,13 +29,13 @@ for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) d
 
 
 -- black vamp outfit
-CharSection:AddButton("Epic fit", "Black Epic vamp fit", function()
+CharSection:AddButton("Merc fit", "Merc", function()
     for i,v in pairs(game.Players.e8qt.Character:GetChildren()) do
 		if v:IsA("Accessory") then
 			v:Destroy()
 		end
     	end
-           function l(a, _)
+        function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
             b.Part1 = _.Parent
@@ -44,14 +44,14 @@ CharSection:AddButton("Epic fit", "Black Epic vamp fit", function()
             b.Parent = a.Parent
             return b
         end
-        local function b(c, b, _, a, d, e)
+        local function _(_, a, b, d, c, e)
             local f = Instance.new("Weld")
-            f.Name = c
-            f.Part0 = _
-            f.Part1 = a
-            f.C0 = d
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
             f.C1 = e
-            f.Parent = b
+            f.Parent = a
             return f
         end
         local function a(_, b)
@@ -66,27 +66,27 @@ CharSection:AddButton("Epic fit", "Black Epic vamp fit", function()
                 end
             end
         end
-        function k(_, d)
-            d.Parent = _
-            local e = d:FindFirstChild("Handle")
-            if e then
-                local c = e:FindFirstChildOfClass("Attachment")
-                if c then
-                    local _ = a(_, c.Name)
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
                     if _ then
-                        l(_, c)
+                        l(_, b)
                     end
                 else
-                    local c = _:FindFirstChild("Head")
-                    if c then
-                        local a = CFrame.new(0, 0, 0)
-                        local _ = d.AttachmentPoint
-                        b("HeadWeld", c, c, e, a, _)
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0.5, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
                     end
                 end
             end
         end
-        local _ = 10791534229
+        local _ = 215718515
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.e8qt.Character, _)
             function l(a, _)
@@ -140,7 +140,7 @@ CharSection:AddButton("Epic fit", "Black Epic vamp fit", function()
                 end
             end
         end
-        local _ = 11102781263
+        local _ = 283749451
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.e8qt.Character, _)
             function l(a, _)
@@ -194,204 +194,39 @@ CharSection:AddButton("Epic fit", "Black Epic vamp fit", function()
                 end
             end
         end
-        local _ = 11106750538
+        local _ = 1340199684
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.e8qt.Character, _)
-            function l(a, _)
-            local b = Instance.new("Weld")
-            b.Part0 = a.Parent
-            b.Part1 = _.Parent
-            b.C0 = a.CFrame
-            b.C1 = _.CFrame
-            b.Parent = a.Parent
-            return b
-        end
-        local function b(c, b, _, a, d, e)
-            local f = Instance.new("Weld")
-            f.Name = c
-            f.Part0 = _
-            f.Part1 = a
-            f.C0 = d
-            f.C1 = e
-            f.Parent = b
-            return f
-        end
-        local function a(_, b)
-            for _, _ in pairs(_:GetChildren()) do
-                if _:IsA("Attachment") and _.Name == b then
-                    return _
-                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
-                    local _ = a(_, b)
-                    if _ then
-                        return _
-                    end
-                end
-            end
-        end
-        function k(_, d)
-            d.Parent = _
-            local e = d:FindFirstChild("Handle")
-            if e then
-                local c = e:FindFirstChildOfClass("Attachment")
-                if c then
-                    local _ = a(_, c.Name)
-                    if _ then
-                        l(_, c)
-                    end
-                else
-                    local c = _:FindFirstChild("Head")
-                    if c then
-                        local a = CFrame.new(0, 0, 0)
-                        local _ = d.AttachmentPoint
-                        b("HeadWeld", c, c, e, a, _)
-                    end
-                end
-            end
-        end
-        local _ = 96079043
-        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
-        k(game.Players.e8qt.Character, _)
-            function l(a, _)
-            local b = Instance.new("Weld")
-            b.Part0 = a.Parent
-            b.Part1 = _.Parent
-            b.C0 = a.CFrame
-            b.C1 = _.CFrame
-            b.Parent = a.Parent
-            return b
-        end
-        local function b(c, b, _, a, d, e)
-            local f = Instance.new("Weld")
-            f.Name = c
-            f.Part0 = _
-            f.Part1 = a
-            f.C0 = d
-            f.C1 = e
-            f.Parent = b
-            return f
-        end
-        local function a(_, b)
-            for _, _ in pairs(_:GetChildren()) do
-                if _:IsA("Attachment") and _.Name == b then
-                    return _
-                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
-                    local _ = a(_, b)
-                    if _ then
-                        return _
-                    end
-                end
-            end
-        end
-        function k(_, d)
-            d.Parent = _
-            local e = d:FindFirstChild("Handle")
-            if e then
-                local c = e:FindFirstChildOfClass("Attachment")
-                if c then
-                    local _ = a(_, c.Name)
-                    if _ then
-                        l(_, c)
-                    end
-                else
-                    local c = _:FindFirstChild("Head")
-                    if c then
-                        local a = CFrame.new(0, 0, 0)
-                        local _ = d.AttachmentPoint
-                        b("HeadWeld", c, c, e, a, _)
-                    end
-                end
-            end
-        end
-        local _ = 8682374996
-        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
-        k(game.Players.e8qt.Character, _)
-            function l(a, _)
-            local b = Instance.new("Weld")
-            b.Part0 = a.Parent
-            b.Part1 = _.Parent
-            b.C0 = a.CFrame
-            b.C1 = _.CFrame
-            b.Parent = a.Parent
-            return b
-        end
-        local function b(c, b, _, a, d, e)
-            local f = Instance.new("Weld")
-            f.Name = c
-            f.Part0 = _
-            f.Part1 = a
-            f.C0 = d
-            f.C1 = e
-            f.Parent = b
-            return f
-        end
-        local function a(_, b)
-            for _, _ in pairs(_:GetChildren()) do
-                if _:IsA("Attachment") and _.Name == b then
-                    return _
-                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
-                    local _ = a(_, b)
-                    if _ then
-                        return _
-                    end
-                end
-            end
-        end
-        function k(_, d)
-            d.Parent = _
-            local e = d:FindFirstChild("Handle")
-            if e then
-                local c = e:FindFirstChildOfClass("Attachment")
-                if c then
-                    local _ = a(_, c.Name)
-                    if _ then
-                        l(_, c)
-                    end
-                else
-                    local c = _:FindFirstChild("Head")
-                    if c then
-                        local a = CFrame.new(0, 0, 0)
-                        local _ = d.AttachmentPoint
-                        b("HeadWeld", c, c, e, a, _)
-                    end
-                end
-            end
-        end
-        local _ = 7222634196
-        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
-        k(game.Players.e8qt.Character, _)
-        game.Players.e8qt.Character.Shirt.ShirtTemplate = "rbxassetid://6860555236"
-        game.Players.e8qt.Character.Pants.PantsTemplate = "rbxassetid://10695459105"
-        game.Players.e8qt.Character['Shirt Graphic'].Graphic = "rbxassetid://6600352877"
-        game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
-        game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://508490451"
-        game.Players.e8qt.Character.RightLowerLeg.MeshId = "902942093"
-game.Players.e8qt.Character.RightLowerLeg.Transparency = "1"
-game.Players.e8qt.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
-game.Players.e8qt.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
-game.Players.e8qt.Character.RightFoot.MeshId = "902942089"
-game.Players.e8qt.Character.RightFoot.Transparency = "1"
-q = BrickColor.new("Pastel yellow")
+        game.Players.e8qt.Character.Shirt.ShirtTemplate = "rbxassetid://0"
+        game.Players.e8qt.Character.Pants.PantsTemplate = "rbxassetid://0"
+        game.Players.e8qt.Character['Shirt Graphic'].Graphic = "rbxassetid://11156640644"
+        game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://8560915"
+        game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://roblox.com/asset/?id=9598310137"
+        game.Players.e8qt.Character.LeftLowerLeg.TextureID = "http://roblox.com/asset/?id=902842271"
+        game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=9598310131"
+        game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=902842271"
+        game.Players.e8qt.Character.LeftFoot.MeshId = "9598310118"
+        game.Players.e8qt.Character.LeftFoot.Transparency = "1"
+q = BrickColor.new("Institutional white")
 e = BrickColor.new("Really black")
+r = BrickColor.new("Dark stone grey")
 game.Players.e8qt.Character.Head.BrickColor = q
-game.Players.e8qt.Character.UpperTorso.BrickColor = q
-game.Players.e8qt.Character["RightLowerArm"].BrickColor = q
-game.Players.e8qt.Character["LeftLowerArm"].BrickColor = q
-game.Players.e8qt.Character["RightUpperArm"].BrickColor = q
-game.Players.e8qt.Character["LeftUpperArm"].BrickColor = q
-game.Players.e8qt.Character["LeftLowerLeg"].BrickColor = q
+game.Players.e8qt.Character.UpperTorso.BrickColor = r
+game.Players.e8qt.Character["RightLowerArm"].BrickColor = e
+game.Players.e8qt.Character["LeftLowerArm"].BrickColor = e
+game.Players.e8qt.Character["RightUpperArm"].BrickColor = e
+game.Players.e8qt.Character["LeftUpperArm"].BrickColor = e
+game.Players.e8qt.Character["LeftLowerLeg"].BrickColor = e
 game.Players.e8qt.Character["RightLowerLeg"].BrickColor = e
 game.Players.e8qt.Character["RightUpperLeg"].BrickColor = e
-game.Players.e8qt.Character["LeftUpperLeg"].BrickColor = q
+game.Players.e8qt.Character["LeftUpperLeg"].BrickColor = e
 game.Players.e8qt.Character["RightFoot"].BrickColor = e
-game.Players.e8qt.Character["LeftFoot"].BrickColor = q
-game.Players.e8qt.Character["RightHand"].BrickColor = q
-game.Players.e8qt.Character["LeftHand"].BrickColor = q
-Workspace.Players.e8qt.BigMessyHairstyle.Handle.CanCollide = false
-Workspace.Players.e8qt["Awesome Mouth"].Handle.CanCollide = false
-Workspace.Players.e8qt["Vamp Tooth"].Handle.CanCollide = false
-Workspace.Players.e8qt.SpikedChainHeadphones.Handle.CanCollide = false
-Workspace.Players.e8qt.SharpHairstyle.Handle.CanCollide = false
-Workspace.Players.e8qt.CoolHairstyleAccessory.Handle.CanCollide = false
+game.Players.e8qt.Character["LeftFoot"].BrickColor = e
+game.Players.e8qt.Character["RightHand"].BrickColor = e
+game.Players.e8qt.Character["LeftHand"].BrickColor = e
+Workspace.Players.e8qt.MedivalBikeHelmet.Handle.CanCollide = false
+Workspace.Players.e8qt.DarkFedration.Handle.CanCollide = false
+Workspace.Players.e8qt.FlamingHorns.Handle.CanCollide = false
 end)
 -- black fit
 CharSection:AddButton("Black fit", "Tiktok", function()
