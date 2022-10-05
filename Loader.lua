@@ -35,6 +35,115 @@ CharSection:AddButton("Merc fit", "Merc", function()
 			v:Destroy()
 		end
     	end
+            function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function b(c, b, _, a, d, e)
+            local f = Instance.new("Weld")
+            f.Name = c
+            f.Part0 = _
+            f.Part1 = a
+            f.C0 = d
+            f.C1 = e
+            f.Parent = b
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(_, d)
+            d.Parent = _
+            local e = d:FindFirstChild("Handle")
+            if e then
+                local c = e:FindFirstChildOfClass("Attachment")
+                if c then
+                    local _ = a(_, c.Name)
+                    if _ then
+                        l(_, c)
+                    end
+                else
+                    local c = _:FindFirstChild("Head")
+                    if c then
+                        local a = CFrame.new(0, 0, 0)
+                        local _ = d.AttachmentPoint
+                        b("HeadWeld", c, c, e, a, _)
+                    end
+                end
+            end
+        end
+        local _ = 283749451
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.e8qt.Character, _)
+        game.Players.e8qt.Character.Shirt.ShirtTemplate = "rbxassetid://0"
+        game.Players.e8qt.Character.Pants.PantsTemplate = "rbxassetid://0"
+        game.Players.e8qt.Character['Shirt Graphic'].Graphic = "rbxassetid://11156640644"
+        game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://8560915"
+        game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
+        game.Players.e8qt.Character.LeftLowerLeg.Transparency = "0"
+        game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
+        game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
+        game.Players.e8qt.Character.LeftFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
+        game.Players.e8qt.Character.LeftFoot.Transparency = "0"
+        game.Players.e8qt.Character.RightLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
+        game.Players.e8qt.Character.RightLowerLeg.Transparency = "0"
+        game.Players.e8qt.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
+        game.Players.e8qt.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
+        game.Players.e8qt.Character.RightFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
+        game.Players.e8qt.Character.RightFoot.Transparency = "0"
+        game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=7430070993"
+q = BrickColor.new("Institutional white")
+e = BrickColor.new("Really black")
+r = BrickColor.new("Dark stone grey")
+game.Players.e8qt.Character.Head.BrickColor = q
+game.Players.e8qt.Character.UpperTorso.BrickColor = r
+game.Players.e8qt.Character["RightLowerArm"].BrickColor = e
+game.Players.e8qt.Character["LeftLowerArm"].BrickColor = e
+game.Players.e8qt.Character["RightUpperArm"].BrickColor = e
+game.Players.e8qt.Character["LeftUpperArm"].BrickColor = e
+game.Players.e8qt.Character["LeftLowerLeg"].BrickColor = e
+game.Players.e8qt.Character["RightLowerLeg"].BrickColor = e
+game.Players.e8qt.Character["RightUpperLeg"].BrickColor = e
+game.Players.e8qt.Character["LeftUpperLeg"].BrickColor = e
+game.Players.e8qt.Character["RightFoot"].BrickColor = e
+game.Players.e8qt.Character["LeftFoot"].BrickColor = e
+game.Players.e8qt.Character["RightHand"].BrickColor = e
+game.Players.e8qt.Character["LeftHand"].BrickColor = e
+Workspace.Players.e8qt.MedivalBikeHelmet.Handle.CanCollide = false
+Workspace.Players.e8qt.DarkFedration.Handle.CanCollide = false
+Workspace.Players.e8qt.FlamingHorns.Handle.CanCollide = false
+game.Players.e8qt.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+game.Players.e8qt.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+game.Players.e8qt.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+game.Players.e8qt.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+game.Players.e8qt.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+game.Players.e8qt.Character.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+game.Players.e8qt.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+game.Players.e8qt.Character.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=2510199791"
+game.Players.e8qt.Character.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=2510201162"
+end)
+
+-- MERC HATS
+CharSection:AddButton("Merc rich hats", "Merc", function()
+    for i,v in pairs(game.Players.e8qt.Character:GetChildren()) do
+		if v:IsA("Accessory") then
+			v:Destroy()
+		end
+    	end
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -197,53 +306,8 @@ CharSection:AddButton("Merc fit", "Merc", function()
         local _ = 1340199684
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.e8qt.Character, _)
-        game.Players.e8qt.Character.Shirt.ShirtTemplate = "rbxassetid://0"
-        game.Players.e8qt.Character.Pants.PantsTemplate = "rbxassetid://0"
-        game.Players.e8qt.Character['Shirt Graphic'].Graphic = "rbxassetid://11156640644"
-        game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://8560915"
-        game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
-        game.Players.e8qt.Character.LeftLowerLeg.Transparency = "0"
-        game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
-        game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
-        game.Players.e8qt.Character.LeftFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
-        game.Players.e8qt.Character.LeftFoot.Transparency = "0"
-        game.Players.e8qt.Character.RightLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
-        game.Players.e8qt.Character.RightLowerLeg.Transparency = "0"
-        game.Players.e8qt.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
-        game.Players.e8qt.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
-        game.Players.e8qt.Character.RightFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
-        game.Players.e8qt.Character.RightFoot.Transparency = "0"
-        game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=7430070993"
-q = BrickColor.new("Institutional white")
-e = BrickColor.new("Really black")
-r = BrickColor.new("Dark stone grey")
-game.Players.e8qt.Character.Head.BrickColor = q
-game.Players.e8qt.Character.UpperTorso.BrickColor = r
-game.Players.e8qt.Character["RightLowerArm"].BrickColor = e
-game.Players.e8qt.Character["LeftLowerArm"].BrickColor = e
-game.Players.e8qt.Character["RightUpperArm"].BrickColor = e
-game.Players.e8qt.Character["LeftUpperArm"].BrickColor = e
-game.Players.e8qt.Character["LeftLowerLeg"].BrickColor = e
-game.Players.e8qt.Character["RightLowerLeg"].BrickColor = e
-game.Players.e8qt.Character["RightUpperLeg"].BrickColor = e
-game.Players.e8qt.Character["LeftUpperLeg"].BrickColor = e
-game.Players.e8qt.Character["RightFoot"].BrickColor = e
-game.Players.e8qt.Character["LeftFoot"].BrickColor = e
-game.Players.e8qt.Character["RightHand"].BrickColor = e
-game.Players.e8qt.Character["LeftHand"].BrickColor = e
-Workspace.Players.e8qt.MedivalBikeHelmet.Handle.CanCollide = false
-Workspace.Players.e8qt.DarkFedration.Handle.CanCollide = false
-Workspace.Players.e8qt.FlamingHorns.Handle.CanCollide = false
-game.Players.e8qt.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
-game.Players.e8qt.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
-game.Players.e8qt.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
-game.Players.e8qt.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
-game.Players.e8qt.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
-game.Players.e8qt.Character.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
-game.Players.e8qt.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
-game.Players.e8qt.Character.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=2510199791"
-game.Players.e8qt.Character.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=2510201162"
 end)
+
 -- black fit
 CharSection:AddButton("Black fit", "Tiktok", function()
     for i,v in pairs(game.Players.e8qt.Character:GetChildren()) do
