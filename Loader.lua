@@ -28,7 +28,7 @@ local TheOtherSection = OtherPage:AddSection("Skinny/Big")
 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
 
 
--- black vamp outfit
+-- MERC outfit
 CharSection:AddButton("Merc fit", "Merc", function()
     for i,v in pairs(game.Players.e8qt.Character:GetChildren()) do
 		if v:IsA("Accessory") then
@@ -201,12 +201,19 @@ CharSection:AddButton("Merc fit", "Merc", function()
         game.Players.e8qt.Character.Pants.PantsTemplate = "rbxassetid://0"
         game.Players.e8qt.Character['Shirt Graphic'].Graphic = "rbxassetid://11156640644"
         game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://8560915"
-        game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://roblox.com/asset/?id=9598310137"
-        game.Players.e8qt.Character.LeftLowerLeg.TextureID = "http://roblox.com/asset/?id=902842271"
-        game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=9598310131"
-        game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=902842271"
-        game.Players.e8qt.Character.LeftFoot.MeshId = "9598310118"
-        game.Players.e8qt.Character.LeftFoot.Transparency = "1"
+        game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
+        game.Players.e8qt.Character.LeftLowerLeg.Transparency = "0"
+        game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
+        game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
+        game.Players.e8qt.Character.LeftFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
+        game.Players.e8qt.Character.LeftFoot.Transparency = "0"
+        game.Players.e8qt.Character.RightLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
+        game.Players.e8qt.Character.RightLowerLeg.Transparency = "0"
+        game.Players.e8qt.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
+        game.Players.e8qt.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
+        game.Players.e8qt.Character.RightFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
+        game.Players.e8qt.Character.RightFoot.Transparency = "0"
+        game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=7430070993"
 q = BrickColor.new("Institutional white")
 e = BrickColor.new("Really black")
 r = BrickColor.new("Dark stone grey")
@@ -227,6 +234,15 @@ game.Players.e8qt.Character["LeftHand"].BrickColor = e
 Workspace.Players.e8qt.MedivalBikeHelmet.Handle.CanCollide = false
 Workspace.Players.e8qt.DarkFedration.Handle.CanCollide = false
 Workspace.Players.e8qt.FlamingHorns.Handle.CanCollide = false
+game.Players.e8qt.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+game.Players.e8qt.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+game.Players.e8qt.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+game.Players.e8qt.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+game.Players.e8qt.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+game.Players.e8qt.Character.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+game.Players.e8qt.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+game.Players.e8qt.Character.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=2510199791"
+game.Players.e8qt.Character.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=2510201162"
 end)
 -- black fit
 CharSection:AddButton("Black fit", "Tiktok", function()
@@ -408,6 +424,12 @@ game.Players.e8qt.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/
 game.Players.e8qt.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
 game.Players.e8qt.Character.RightFoot.MeshId = "902942089"
 game.Players.e8qt.Character.RightFoot.Transparency = "1"
+game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
+game.Players.e8qt.Character.LeftLowerLeg.Transparency = "0"
+game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
+game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
+game.Players.e8qt.Character.LeftFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
+game.Players.e8qt.Character.LeftFoot.Transparency = "0"
 q = BrickColor.new("Institutional white")
 e = BrickColor.new("Really black")
 game.Players.e8qt.Character.Head.BrickColor = q
@@ -427,6 +449,15 @@ game.Players.e8qt.Character["LeftHand"].BrickColor = q
 Workspace.Players.e8qt.MessyHairBrown.Handle.CanCollide = false
 Workspace.Players.e8qt.Scissors.Handle.CanCollide = false
 Workspace.Players.e8qt.Eyepatch.Handle.CanCollide = false
+game.Players.e8qt.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=2510196951"
+game.Players.e8qt.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=2510197257"
+game.Players.e8qt.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+game.Players.e8qt.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+game.Players.e8qt.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+game.Players.e8qt.Character.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+game.Players.e8qt.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+game.Players.e8qt.Character.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=2510199791"
+game.Players.e8qt.Character.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=2510201162"
 end)
 -- rge outfit
 CharSection:AddButton("RGE", "Red Glowing Eyes and SKOTN fit", function()
@@ -662,6 +693,12 @@ CharSection:AddButton("RGE", "Red Glowing Eyes and SKOTN fit", function()
         game.Players.e8qt.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
         game.Players.e8qt.Character.RightFoot.MeshId = "902942089"
         game.Players.e8qt.Character.RightFoot.Transparency = "1"
+        game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
+        game.Players.e8qt.Character.LeftLowerLeg.Transparency = "0"
+        game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
+        game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
+        game.Players.e8qt.Character.LeftFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
+        game.Players.e8qt.Character.LeftFoot.Transparency = "0"
 q = BrickColor.new("Pastel yellow")
 e = BrickColor.new("Really black")
 game.Players.e8qt.Character.Head.BrickColor = q
@@ -682,6 +719,15 @@ Workspace.Players.e8qt["MeshPartAccessory"].Handle.CanCollide = false
 Workspace.Players.e8qt.VictorianBlack.Handle.CanCollide = false
 Workspace.Players.e8qt.MessyHairBrown.Handle.CanCollide = false
 Workspace.Players.e8qt.KingOfTheNight_Silver.Handle.CanCollide = false
+game.Players.e8qt.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=2510196951"
+game.Players.e8qt.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=2510197257"
+game.Players.e8qt.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+game.Players.e8qt.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+game.Players.e8qt.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+game.Players.e8qt.Character.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+game.Players.e8qt.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+game.Players.e8qt.Character.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=2510199791"
+game.Players.e8qt.Character.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=2510201162"
 end)
 
 
@@ -691,13 +737,34 @@ end) -- headless on function
 OtherSection:AddButton("Headless off", "Headless", function()
     game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=7430070993"
     if game.Players.e8qt.Character:FindFirstChild("VictorianBlack") then
+    game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
     game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://179693472"
     elseif game.Players.e8qt.Character:FindFirstChild("SpikedChainHeadphones") then
+    game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
     game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://508490451"
 elseif game.Players.e8qt.Character:FindFirstChild("Scissors") then
+    game.Players.e8qt.Character.Head.MeshId = "http://roblox.com/asset/?id=8635369204"
     game.Players.e8qt.Character.Head.face.Texture = "rbxassetid://494290547" 
     end
 end) -- headless off function
+
+
+OtherSection:AddButton("Left Korblox on", "Korblox", function()
+    game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://roblox.com/asset/?id=9598310137"
+    game.Players.e8qt.Character.LeftLowerLeg.TextureID = "http://roblox.com/asset/?id=902842271"
+    game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=9598310131"
+    game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=902842271"
+    game.Players.e8qt.Character.LeftFoot.MeshId = "9598310118"
+    game.Players.e8qt.Character.LeftFoot.Transparency = "1"
+end) -- left korblox on function
+OtherSection:AddButton("Left Korblox off", "Korblox", function()
+    game.Players.e8qt.Character.LeftLowerLeg.MeshId = "http://www.roblox.com/asset/?id=7430071105"
+    game.Players.e8qt.Character.LeftLowerLeg.Transparency = "0"
+    game.Players.e8qt.Character.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=7430071119"
+    game.Players.e8qt.Character.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=0"
+    game.Players.e8qt.Character.LeftFoot.MeshId = "http://www.roblox.com/asset/?id=7430071082"
+    game.Players.e8qt.Character.LeftFoot.Transparency = "0"
+end) -- left korblox off function
 
 
 OtherSection:AddButton("Star on", "Star", function()
