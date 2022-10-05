@@ -304,6 +304,7 @@ CharSection:AddButton("Merc rich hats", "Merc", function()
         local _ = 1340199684
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.e8qt.Character, _)
+	Workspace.Players.e8qt.MedivalBikeHelmet.Handle.CanCollide = false
 	Workspace.Players.e8qt.DarkFedration.Handle.CanCollide = false
 	Workspace.Players.e8qt.FlamingHorns.Handle.CanCollide = false
 	game.Players.e8qt.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
