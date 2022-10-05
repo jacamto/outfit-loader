@@ -237,7 +237,7 @@ Workspace.Players.e8qt.FlamingHorns.Handle.CanCollide = false
 game.Players.e8qt.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
 game.Players.e8qt.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
 game.Players.e8qt.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
-game.Players.e8qt.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+game.Players.e8qt.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
 game.Players.e8qt.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
 game.Players.e8qt.Character.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
 game.Players.e8qt.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
