@@ -840,10 +840,10 @@ end) -- left korblox off function
 
 OtherSection:AddButton("Heart on", "Heart", function()
     game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('teku ❤️')
-end) -- star on function
+end) -- heart on function
 OtherSection:AddButton("Heart off", "Heart", function()
     game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('teku')
-end) -- star off function
+end) -- heart off function
 
 -- FITS FOR MY SIS START HERE
 
