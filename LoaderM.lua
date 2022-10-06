@@ -1,3 +1,7 @@
+-- THIS IS THE LOADER FOR OUR MAINS.
+
+
+
 -- Wait for game to load
 repeat task.wait() until game:IsLoaded();
 
