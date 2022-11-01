@@ -60,7 +60,7 @@ local loader = "1"
         game:GetService("Players")["2much4gizem"].UserId = "3560046581"
         end
         if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
-        game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+        game.Players['luluuluvrr'].Character.Humanoid.DisplayName = ('farzad')
         end
         
         -- commands
@@ -370,7 +370,7 @@ local loader = "1"
         game.Players['2much4gizem'].Character['Meshes/EyepatchAccessory'].Handle.CanCollide = false
         game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
         game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-        game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+        game.Players['luluuluvrr'].Character.Humanoid.DisplayName = ('farzad')
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -787,7 +787,7 @@ local loader = "1"
          game.Players['2much4gizem'].Character.BloodeyeAccessory.Handle.CanCollide = false
          game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
          game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-         game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+         game.Players['luluuluvrr'].Character.Humanoid.DisplayName = ('farzad')
          function l(a, _)
              local b = Instance.new("Weld")
              b.Part0 = a.Parent
@@ -1148,7 +1148,7 @@ local loader = "1"
          game.Players['2much4gizem'].Character['Meshes/EyepatchAccessory'].Handle.CanCollide = false
          game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
          game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-         game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+         game.Players['luluuluvrr'].Character.Humanoid.DisplayName = ('farzad')
          function l(a, _)
              local b = Instance.new("Weld")
              b.Part0 = a.Parent
@@ -1577,7 +1577,7 @@ local loader = "1"
          game.Players['2much4gizem'].Character.BloodeyeAccessory.Handle.CanCollide = false
          game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
          game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-         game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+         game.Players['luluuluvrr'].Character.Humanoid.DisplayName = ('farzad')
          function l(a, _)
              local b = Instance.new("Weld")
              b.Part0 = a.Parent
@@ -2366,7 +2366,7 @@ local loader = "1"
             game.Players.RexRevival.Character.MessyHairstyleAccessory.Handle.CanCollide = false
             game.Players.RexRevival.Character.CoolHairstyleAccessory.Handle.CanCollide = false
             game.Players.RexRevival.Character.KingOfTheNight_Black.Handle.CanCollide = false
-            game.Players['RexRevival'].Character.Humanoid.DisplayName = ('rex')
+            game.Players['luluuluvrr'].Character.Humanoid.DisplayName = ('rex')
             end
            end
     end
