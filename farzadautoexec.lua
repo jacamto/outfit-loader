@@ -1,3 +1,4 @@
+for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
 if game.PlaceId == 2788229376 then
     wait(6.125)
     game:GetService("Players")["luluuluvrr"].Name = "2much4gizem"
