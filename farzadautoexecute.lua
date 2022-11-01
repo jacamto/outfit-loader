@@ -1,3 +1,6 @@
+
+    -- name changing
+
 if game.PlaceId == 2788229376 then
     wait(6.125)
     game:GetService("Players")["luluuluvrr"].Name = "2much4gizem"
@@ -9,10 +12,12 @@ if game.PlaceId == 2788229376 then
     game:GetService("Players")["2much4gizem"].UserId = "3560046581"
     end
     
+    -- commands
+
     if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
     wait(2.875)
     getgenv().mainaccount = "2much4gizem"
-    
+
     game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
        if msg == "o1" then
     for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
@@ -426,7 +431,7 @@ if game.PlaceId == 2788229376 then
     k(game.Players['2much4gizem'].Character, _)
     game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
        end
-end)
+    end)
     end
 
     game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
@@ -842,8 +847,9 @@ end)
      k(game.Players['2much4gizem'].Character, _)
      game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
         end
-     end)
-     game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
+    end)
+    
+    game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
         if msg == "noh" then
      for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
              if v:IsA("Accessory") then
@@ -851,9 +857,11 @@ end)
              end
              end
         end
-     end)
-     end
+    end)
+    end
     
+    -- auto outfit
+
     if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
         wait(0.5)
      for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
