@@ -2,7 +2,7 @@
 -- 2 = Rexs outfits
 
 
-loader = "1"
+local loader = "1"
 
 
 
@@ -48,9 +48,7 @@ loader = "1"
 
 
     if loader == "1" then
- 
- -- name changing
-
+    
     if game.PlaceId == 2788229376 then
         wait(6.125)
         game:GetService("Players")["luluuluvrr"].Name = "2much4gizem"
@@ -1268,6 +1266,7 @@ loader = "1"
                  end
             end
         end)
+        end
         
         -- auto outfit
     
@@ -1685,7 +1684,6 @@ loader = "1"
          game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
         end
     end
-    end
 
 
     if loader == "2" then
@@ -1697,10 +1695,10 @@ loader = "1"
                game:GetService("Players")["luluuluvrr"].Name = "RexRevival"
                
                if game:GetService("Players")["RexRevival"].Name == "RexRevival" then
-               game:GetService("Players")["RexRevival"].DisplayName = "farzad"
+               game:GetService("Players")["RexRevival"].DisplayName = "rex"
                end
                if game:GetService("Players")["RexRevival"].Name == "RexRevival" then
-               game:GetService("Players")["RexRevival"].UserId = "3560046581"
+               game:GetService("Players")["RexRevival"].UserId = "3705441594"
                end
                
                -- commands
