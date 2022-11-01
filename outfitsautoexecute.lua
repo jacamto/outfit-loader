@@ -2,7 +2,7 @@
 -- 2 = Rexs outfits
 
 
-local loader = "2"
+local loader = "1"
 
 
 
