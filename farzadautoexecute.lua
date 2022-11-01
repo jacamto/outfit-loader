@@ -849,7 +849,7 @@
         end)
 
         game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
-            if msg == "o1" then
+            if msg == "o3" then
          for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
                  if v:IsA("Accessory") then
                      v:Destroy()
