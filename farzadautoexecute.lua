@@ -432,6 +432,7 @@
         game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
            end
         end)
+    end
     
         game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
             if msg == "o2" then
@@ -1634,4 +1635,3 @@
          k(game.Players['2much4gizem'].Character, _)
          game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
         end
-    end
