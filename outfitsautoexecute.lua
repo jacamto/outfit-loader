@@ -64,7 +64,7 @@ local loader = "1"
     
         if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
         wait(2.875)
-        getgenv().mainaccount = "luluuluvrr"
+        getgenv().mainaccount = "2much4gizem"
     
         game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
            if msg == "o1" then
@@ -1709,7 +1709,7 @@ local loader = "1"
            
                if game:GetService("Players")["RexRevival"].Name == "RexRevival" then
                wait(2.875)
-               getgenv().mainaccount = "luluuluvrr"
+               getgenv().mainaccount = "RexRevival"
            
                game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
                   if msg == "o1" then
