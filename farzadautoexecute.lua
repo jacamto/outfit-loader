@@ -713,7 +713,7 @@ if game.PlaceId == 2788229376 then
              k(game.Players['2much4gizem'].Character, _)
              game.Players['2much4gizem'].Character.Shirt.ShirtTemplate = "rbxassetid://9041418412"
              game.Players['2much4gizem'].Character.Pants.PantsTemplate = "rbxassetid://8842514842"
-             game.Players['2much4gizem'].Character['Shirt Graphic'].Graphic = "rbxassetid://6928558195"
+             game.Players['2much4gizem'].Character['Shirt Graphic'].Graphic = "rbxassetid://11442000098"
      e = BrickColor.new("Institutional white")
      r = BrickColor.new("Really black")
      game.Players['2much4gizem'].Character.Head.BrickColor = e
@@ -1141,7 +1141,7 @@ if game.PlaceId == 2788229376 then
              k(game.Players['2much4gizem'].Character, _)
              game.Players['2much4gizem'].Character.Shirt.ShirtTemplate = "rbxassetid://9041418412"
              game.Players['2much4gizem'].Character.Pants.PantsTemplate = "rbxassetid://8842514842"
-             game.Players['2much4gizem'].Character['Shirt Graphic'].Graphic = "rbxassetid://6928558195"
+             game.Players['2much4gizem'].Character['Shirt Graphic'].Graphic = "rbxassetid://11442000098"
      e = BrickColor.new("Institutional white")
      r = BrickColor.new("Really black")
      game.Players['2much4gizem'].Character.Head.BrickColor = e
