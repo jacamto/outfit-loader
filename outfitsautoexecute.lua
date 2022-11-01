@@ -2360,7 +2360,6 @@ local loader = "1"
             game.Players.RexRevival.Character.MessyHairstyleAccessory.Handle.CanCollide = false
             game.Players.RexRevival.Character.CoolHairstyleAccessory.Handle.CanCollide = false
             game.Players.RexRevival.Character.KingOfTheNight_Black.Handle.CanCollide = false
-            
             end
            end
     end
