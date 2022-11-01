@@ -59,15 +59,12 @@ local loader = "1"
         if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
         game:GetService("Players")["2much4gizem"].UserId = "3560046581"
         end
-        if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
-        game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
-        end
         
         -- commands
     
         if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
         wait(2.875)
-        getgenv().mainaccount = "2much4gizem"
+        getgenv().mainaccount = "luluuluvrr"
     
         game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
            if msg == "o1" then
@@ -370,7 +367,7 @@ local loader = "1"
         game.Players['2much4gizem'].Character['Meshes/EyepatchAccessory'].Handle.CanCollide = false
         game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
         game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-        game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+        
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -787,7 +784,7 @@ local loader = "1"
          game.Players['2much4gizem'].Character.BloodeyeAccessory.Handle.CanCollide = false
          game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
          game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-         game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+         
          function l(a, _)
              local b = Instance.new("Weld")
              b.Part0 = a.Parent
@@ -1148,7 +1145,7 @@ local loader = "1"
          game.Players['2much4gizem'].Character['Meshes/EyepatchAccessory'].Handle.CanCollide = false
          game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
          game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-         game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+         
          function l(a, _)
              local b = Instance.new("Weld")
              b.Part0 = a.Parent
@@ -1577,7 +1574,7 @@ local loader = "1"
          game.Players['2much4gizem'].Character.BloodeyeAccessory.Handle.CanCollide = false
          game.Players['2much4gizem'].Character.black.Handle.CanCollide = false
          game.Players['2much4gizem'].Character['Black Messy Middle Part'].Handle.CanCollide = false
-         game.Players['2much4gizem'].Character.Humanoid.DisplayName = ('farzad')
+         
          function l(a, _)
              local b = Instance.new("Weld")
              b.Part0 = a.Parent
@@ -1707,15 +1704,12 @@ local loader = "1"
                if game:GetService("Players")["RexRevival"].Name == "RexRevival" then
                game:GetService("Players")["RexRevival"].UserId = "3705441594"
                end
-               if game:GetService("Players")["RexRevival"].Name == "RexRevival" then
-               game.Players['RexRevival'].Character.Humanoid.DisplayName = ('rex')
-               end
                
                -- commands
            
                if game:GetService("Players")["RexRevival"].Name == "RexRevival" then
                wait(2.875)
-               getgenv().mainaccount = "RexRevival"
+               getgenv().mainaccount = "luluuluvrr"
            
                game:GetService("Players"):FindFirstChild(getgenv().mainaccount).Chatted:connect(function(msg)
                   if msg == "o1" then
@@ -1963,7 +1957,7 @@ local loader = "1"
                game.Players.RexRevival.Character.CoolHairstyleAccessory.Handle.CanCollide = false
                game.Players.RexRevival.Character['Black Messy Middle Part'].Handle.CanCollide = false
                game.Players.RexRevival.Character['Meshes/MessyHairV2_03BLACK'].Handle.CanCollide = false
-               game.Players['RexRevival'].Character.Humanoid.DisplayName = ('rex')
+               
                   end
             end)
     
@@ -2158,7 +2152,7 @@ local loader = "1"
              game.Players.RexRevival.Character.MessyHairstyleAccessory.Handle.CanCollide = false
              game.Players.RexRevival.Character.CoolHairstyleAccessory.Handle.CanCollide = false
              game.Players.RexRevival.Character.KingOfTheNight_Black.Handle.CanCollide = false
-             game.Players['RexRevival'].Character.Humanoid.DisplayName = ('rex')
+             
              end
             end)
     
@@ -2366,7 +2360,7 @@ local loader = "1"
             game.Players.RexRevival.Character.MessyHairstyleAccessory.Handle.CanCollide = false
             game.Players.RexRevival.Character.CoolHairstyleAccessory.Handle.CanCollide = false
             game.Players.RexRevival.Character.KingOfTheNight_Black.Handle.CanCollide = false
-            game.Players['RexRevival'].Character.Humanoid.DisplayName = ('rex')
+            
             end
            end
     end
