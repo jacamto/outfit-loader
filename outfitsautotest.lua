@@ -1,15 +1,7 @@
 if game.PlaceId == 2788229376 then
-    for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
     
         local function PlayerAdded(Player)
             local function Chatted(Message)
-                local plr = game.Players.LocalPlayer
-                local character = plr.Character or plr.CharacterAdded:Wait()
-                local humanoid = character:FindFirstChild("Humanoid")
-                local PlayerHumanoid = plr.Character:WaitForChild("Humanoid")
-                local targetHumanoid = Player.Character:WaitForChild("Humanoid")
-                local LastTargetPosition = targetHumanoid.RootPart.CFrame
-                local Length = 3
             
                 wait(6.125)
                 game:GetService("Players")["luluuluvrr"].Name = "2much4gizem"
