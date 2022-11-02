@@ -2,16 +2,6 @@ if game.PlaceId == 2788229376 then
     
         local function PlayerAdded(Player)
             local function Chatted(Message)
-            
-                wait(6.125)
-                game:GetService("Players")["luluuluvrr"].Name = "2much4gizem"
-                
-                if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
-                game:GetService("Players")["2much4gizem"].DisplayName = "farzad"
-                end
-                if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
-                game:GetService("Players")["2much4gizem"].UserId = "3560046581"
-                end
     
                 if Player.UserId == getgenv().controller then
     
