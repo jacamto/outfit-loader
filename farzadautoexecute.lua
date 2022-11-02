@@ -1,5 +1,5 @@
 if game.PlaceId == 2788229376 then
-    wait(6.125)
+    wait(6.2)
     game:GetService("Players")["luluuluvrr"].Name = "2much4gizem"
     
     if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
