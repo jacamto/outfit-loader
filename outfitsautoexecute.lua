@@ -15,7 +15,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == UG then
-if messageObj.Message == "o1" then do
+if messageObj.Message == "o1" then
     for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
         if v:IsA("Accessory") then
             v:Destroy()
@@ -429,8 +429,14 @@ k(game.Players['2much4gizem'].Character, _)
 game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
 game:GetService("Workspace").Players.luluuluvrr.Humanoid.DisplayName = ('farzad')
 end
+end
+end)
 
-elseif messageObj.Message == "o2" then do
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+ 
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == UG then
+if messageObj.Message == "o2" then
 for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
     if v:IsA("Accessory") then
         v:Destroy()
@@ -845,14 +851,13 @@ game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
 game:GetService("Workspace").Players.luluuluvrr.Humanoid.DisplayName = ('farzad')
 end
 end
-end
 end)
 
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
  
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == UG then
-if messageObj.Message == "o3" then do
+if messageObj.Message == "o3" then
 for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
     if v:IsA("Accessory") then
         v:Destroy()
@@ -1211,15 +1216,20 @@ k(game.Players['2much4gizem'].Character, _)
 game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
 game:GetService("Workspace").Players.luluuluvrr.Humanoid.DisplayName = ('farzad')
 end
+end
+end)
 
-elseif messageObj.Message == "noh" then do
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+ 
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == UG then
+if messageObj.Message == "noh" then
 for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
     if v:IsA("Accessory") then
         v:Destroy()
     end
 end
 game:GetService("Workspace").Players.luluuluvrr.Humanoid.DisplayName = ('farzad')
-end
 end
 end
 end)
