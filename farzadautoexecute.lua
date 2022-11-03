@@ -339,7 +339,7 @@ if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
                 end
             end
         end
-        local _ = 1744060292
+        local _ = 74891470
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
