@@ -1,4 +1,4 @@
--- 1 = pois
+-- 1 = all horns "firey" "pois" "frozen"
 -- 2 = farzad
 
 
