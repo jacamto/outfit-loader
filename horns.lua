@@ -1,5 +1,3 @@
-wait(2)
-if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
 wait(6.2)
     if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
     game:GetService("Players").luluuluvrr.DisplayName = "farzad"
@@ -296,4 +294,3 @@ if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
 game:GetService("Workspace").Players.luluuluvrr.Humanoid.DisplayName = ('farzad')   
 end
-  end
