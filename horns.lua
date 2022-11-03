@@ -1,4 +1,5 @@
-    if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
+wait(2)
+if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
 wait(6.2)
     if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
     game:GetService("Players").luluuluvrr.DisplayName = "farzad"
