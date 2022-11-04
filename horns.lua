@@ -69,7 +69,10 @@ if messageObj.Message == "pois" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
-        game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy() 
+        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+            game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
+    game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
+        end
                 function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -195,7 +198,10 @@ if messageObj.Message == "frozen" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
-                game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy() 
+        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+            game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
+    game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
+        end
                 function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -321,7 +327,10 @@ if messageObj.Message == "fiery" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
-                game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy() 
+        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+            game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
+    game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
+        end
                 function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -392,8 +401,10 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
         end
         end
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
-               game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy() 
+        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+            game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
+    game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
+        end
                 function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -449,6 +460,7 @@ game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
 end
 end
 end)
