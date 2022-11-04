@@ -459,7 +459,7 @@ if messageObj.Message == "noh" then
         local _ = 39247441
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
-        game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
+        game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
 end
 end
