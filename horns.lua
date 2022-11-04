@@ -79,7 +79,7 @@ if messageObj.Message == "pois" then
         local _ = 1744060292
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
-                function l(a, _)
+       function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
             b.Part1 = _.Parent
@@ -88,14 +88,14 @@ if messageObj.Message == "pois" then
             b.Parent = a.Parent
             return b
         end
-        local function _(_, a, b, d, c, e)
+        local function b(c, b, _, a, d, e)
             local f = Instance.new("Weld")
-            f.Name = _
-            f.Part0 = b
-            f.Part1 = d
-            f.C0 = c
+            f.Name = c
+            f.Part0 = _
+            f.Part1 = a
+            f.C0 = d
             f.C1 = e
-            f.Parent = a
+            f.Parent = b
             return f
         end
         local function a(_, b)
@@ -110,22 +110,22 @@ if messageObj.Message == "pois" then
                 end
             end
         end
-        function k(e, c)
-            c.Parent = e
-            local d = c:FindFirstChild("Handle")
-            if d then
-                local b = d:FindFirstChildOfClass("Attachment")
-                if b then
-                    local _ = a(e, b.Name)
+        function k(_, d)
+            d.Parent = _
+            local e = d:FindFirstChild("Handle")
+            if e then
+                local c = e:FindFirstChildOfClass("Attachment")
+                if c then
+                    local _ = a(_, c.Name)
                     if _ then
-                        l(_, b)
+                        l(_, c)
                     end
                 else
-                    local e = e:FindFirstChild("Head")
-                    if e then
-                        local b = CFrame.new(0, 0.5, 0)
-                        local a = c.AttachmentPoint
-                        _("HeadWeld", e, e, d, b, a)
+                    local c = _:FindFirstChild("Head")
+                    if c then
+                        local a = CFrame.new(0, 0, 0)
+                        local _ = d.AttachmentPoint
+                        b("HeadWeld", c, c, e, a, _)
                     end
                 end
             end
@@ -215,7 +215,7 @@ if messageObj.Message == "frozen" then
         local _ = 74891470
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)        
-                function l(a, _)
+       function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
             b.Part1 = _.Parent
@@ -224,14 +224,14 @@ if messageObj.Message == "frozen" then
             b.Parent = a.Parent
             return b
         end
-        local function _(_, a, b, d, c, e)
+        local function b(c, b, _, a, d, e)
             local f = Instance.new("Weld")
-            f.Name = _
-            f.Part0 = b
-            f.Part1 = d
-            f.C0 = c
+            f.Name = c
+            f.Part0 = _
+            f.Part1 = a
+            f.C0 = d
             f.C1 = e
-            f.Parent = a
+            f.Parent = b
             return f
         end
         local function a(_, b)
@@ -246,22 +246,22 @@ if messageObj.Message == "frozen" then
                 end
             end
         end
-        function k(e, c)
-            c.Parent = e
-            local d = c:FindFirstChild("Handle")
-            if d then
-                local b = d:FindFirstChildOfClass("Attachment")
-                if b then
-                    local _ = a(e, b.Name)
+        function k(_, d)
+            d.Parent = _
+            local e = d:FindFirstChild("Handle")
+            if e then
+                local c = e:FindFirstChildOfClass("Attachment")
+                if c then
+                    local _ = a(_, c.Name)
                     if _ then
-                        l(_, b)
+                        l(_, c)
                     end
                 else
-                    local e = e:FindFirstChild("Head")
-                    if e then
-                        local b = CFrame.new(0, 0.5, 0)
-                        local a = c.AttachmentPoint
-                        _("HeadWeld", e, e, d, b, a)
+                    local c = _:FindFirstChild("Head")
+                    if c then
+                        local a = CFrame.new(0, 0, 0)
+                        local _ = d.AttachmentPoint
+                        b("HeadWeld", c, c, e, a, _)
                     end
                 end
             end
@@ -351,7 +351,7 @@ if messageObj.Message == "fiery" then
         local _ = 215718515
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)    
-                function l(a, _)
+       function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
             b.Part1 = _.Parent
@@ -360,14 +360,14 @@ if messageObj.Message == "fiery" then
             b.Parent = a.Parent
             return b
         end
-        local function _(_, a, b, d, c, e)
+        local function b(c, b, _, a, d, e)
             local f = Instance.new("Weld")
-            f.Name = _
-            f.Part0 = b
-            f.Part1 = d
-            f.C0 = c
+            f.Name = c
+            f.Part0 = _
+            f.Part1 = a
+            f.C0 = d
             f.C1 = e
-            f.Parent = a
+            f.Parent = b
             return f
         end
         local function a(_, b)
@@ -382,22 +382,22 @@ if messageObj.Message == "fiery" then
                 end
             end
         end
-        function k(e, c)
-            c.Parent = e
-            local d = c:FindFirstChild("Handle")
-            if d then
-                local b = d:FindFirstChildOfClass("Attachment")
-                if b then
-                    local _ = a(e, b.Name)
+        function k(_, d)
+            d.Parent = _
+            local e = d:FindFirstChild("Handle")
+            if e then
+                local c = e:FindFirstChildOfClass("Attachment")
+                if c then
+                    local _ = a(_, c.Name)
                     if _ then
-                        l(_, b)
+                        l(_, c)
                     end
                 else
-                    local e = e:FindFirstChild("Head")
-                    if e then
-                        local b = CFrame.new(0, 0.5, 0)
-                        local a = c.AttachmentPoint
-                        _("HeadWeld", e, e, d, b, a)
+                    local c = _:FindFirstChild("Head")
+                    if c then
+                        local a = CFrame.new(0, 0, 0)
+                        local _ = d.AttachmentPoint
+                        b("HeadWeld", c, c, e, a, _)
                     end
                 end
             end
