@@ -20,7 +20,7 @@ if messageObj.Message == "pois" then
         end
         end
         for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+        if game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows") then
         game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
         game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
         end
@@ -156,7 +156,7 @@ if messageObj.Message == "frozen" then
         end
         end
         for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+        if game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows") then
         game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
         game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
         end
@@ -292,7 +292,7 @@ if messageObj.Message == "fiery" then
         end
         end
         for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+        if game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows") then
         game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
         game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
         end
