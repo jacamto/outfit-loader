@@ -69,6 +69,7 @@ if messageObj.Message == "pois" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
+    wait(0.15)
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
@@ -128,7 +129,7 @@ if messageObj.Message == "pois" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')   
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
 end
 end
 end)
@@ -198,6 +199,7 @@ if messageObj.Message == "frozen" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
+    wait(0.15)
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
@@ -257,7 +259,7 @@ if messageObj.Message == "frozen" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')   
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
 end
 end
 end)
@@ -327,6 +329,7 @@ if messageObj.Message == "fiery" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
+    wait(0.15)
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
@@ -386,7 +389,7 @@ if messageObj.Message == "fiery" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')   
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')  
 end
 end
 end)
@@ -401,6 +404,7 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
         end
         end
+    wait(0.15)
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
@@ -460,7 +464,7 @@ if messageObj.Message == "noh" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')
 end
 end
 end)
@@ -588,5 +592,5 @@ if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
-game:GetService("Workspace").Players.luluuluvrr.Humanoid.DisplayName = ('farzad')   
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')   
 end
