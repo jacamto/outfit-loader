@@ -73,6 +73,7 @@ if messageObj.Message == "pois" then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
     game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
+    game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
         end
                 function l(a, _)
             local b = Instance.new("Weld")
@@ -199,10 +200,11 @@ if messageObj.Message == "frozen" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
-                if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
-    game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
-    game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy() 
+    game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
+    game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
+    game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
         end
                 function l(a, _)
             local b = Instance.new("Weld")
@@ -333,6 +335,7 @@ if messageObj.Message == "fiery" then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
     game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
+    game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
         end
                 function l(a, _)
             local b = Instance.new("Weld")
@@ -407,6 +410,7 @@ if messageObj.Message == "noh" then
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
+    game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
     game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
         end
                 function l(a, _)
