@@ -410,6 +410,8 @@ if messageObj.Message == "noh" then
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
             game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy()
+        end
+                if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
     game.Players.luluuluvrr.Character.darksnowninja:Destroy()
     game.Players.luluuluvrr.Character.darksnowninja:Destroy()
     game.Players.luluuluvrr.Character.darksnowninja:Destroy()
