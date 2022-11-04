@@ -516,9 +516,11 @@ if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
-            game.Players.luluuluvrr.Character:FindFirstChild("darksnowninja"):Destroy()
-    game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
+    wait(0.15)
+        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
+            game.Players.luluuluvrr.Character:FindFirstChild("NinjaMaskOfShadows"):Destroy() 
     game.Players.luluuluvrr.Character:FindFirstChild("EverestHood"):Destroy() 
+        end
                 function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
