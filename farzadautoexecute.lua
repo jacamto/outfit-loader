@@ -2208,11 +2208,6 @@ end
 if loader == "3" then
 if game:GetService("Players")["luluuluvrr"].Name == "luluuluvrr" then
 wait(0.5)
-    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
-        game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
-        end
-        end
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
