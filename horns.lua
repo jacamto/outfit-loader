@@ -1,3 +1,8 @@
+local horns = "0"
+
+
+
+if horns = "0" then
 wait(6.2)
     if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
     game:GetService("Players").luluuluvrr.DisplayName = "farzad"
@@ -543,3 +548,4 @@ if game:GetService("Players").luluuluvrr.Name == "luluuluvrr" then
         game.Players.luluuluvrr.Character.darksnowninja.Handle.CanCollide = false 
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')   
 end
+    end
