@@ -1782,7 +1782,6 @@ end
 end
 end)
 end
-end
 
 -- auto outfit
 if loader == "2" then
