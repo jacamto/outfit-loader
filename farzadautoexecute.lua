@@ -49,7 +49,6 @@ local loader = "3"
 
 
 if fit == "2" then
-if game.PlaceId == 2788229376 then
     wait(6.2)
     game:GetService("Players")["luluuluvrr"].Name = "2much4gizem"
     
@@ -1700,7 +1699,6 @@ local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
 k(game.Players['2much4gizem'].Character, _)
 game.Players['2much4gizem'].Character.Black.Handle.CanCollide = false
 game:GetService("Workspace").Players.luluuluvrr.Humanoid.DisplayName = ('farzad')
-end
 end
 end
 
