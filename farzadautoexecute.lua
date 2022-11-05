@@ -4,6 +4,7 @@
 
 
 local fit = "3"
+local loader = "3"
 
 
 
@@ -1785,7 +1786,7 @@ end
 end
 
 -- auto outfit
-if fit == "2" then
+if loader == "2" then
 if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
 wait(0.5)
 for i,v in pairs(game.Players['2much4gizem'].Character:GetChildren()) do
@@ -2204,7 +2205,7 @@ end
 end
 
 -- auto outfit
-if fit == "3" then
+if loader == "3" then
 if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
 wait(0.5)
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
