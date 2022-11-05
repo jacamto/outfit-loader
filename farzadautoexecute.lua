@@ -1705,7 +1705,6 @@ end
 end
 
 if fit == "3" then
-if game.PlaceId == 2788229376 then
     wait(6.2)
     if game:GetService("Players")["luluuluvrr"].Name == "luluuluvrr" then
     game:GetService("Players")["luluuluvrr"].DisplayName = "farzad"
