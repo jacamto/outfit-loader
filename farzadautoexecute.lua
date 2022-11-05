@@ -2206,7 +2206,7 @@ end
 
 -- auto outfit
 if loader == "3" then
-if game:GetService("Players")["2much4gizem"].Name == "2much4gizem" then
+if game:GetService("Players")["luluuluvrr"].Name == "luluuluvrr" then
 wait(0.5)
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
