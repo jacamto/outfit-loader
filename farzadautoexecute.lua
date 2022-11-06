@@ -3,8 +3,13 @@
 
 
 
+
+local p = "1744060292"  -- poison horns
+local b = "74891470"    -- frozen horns
+local f = "215718515"   -- fiery horns
 local fit = "3"
 local loader = "3"
+local horns = f
 
 
 
@@ -2410,7 +2415,7 @@ wait(0.5)
                 end
             end
         end
-        local _ = 215718515
+        local _ = horns
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
