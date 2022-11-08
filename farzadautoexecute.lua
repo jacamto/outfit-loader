@@ -7,8 +7,8 @@
 local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
 local f = "215718515"   -- fiery horns
-local fit = "3"
-local loader = "3"
+local fit = "1"
+local loader = "1"
 local horns = p
 
 
