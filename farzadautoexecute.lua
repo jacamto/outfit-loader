@@ -9,7 +9,7 @@ local b = "74891470"    -- frozen horns
 local f = "215718515"   -- fiery horns
 local fit = "3"
 local loader = "3"
-local horns = f
+local horns = p
 
 
 
