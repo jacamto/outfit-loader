@@ -1709,11 +1709,11 @@ end
 end
 
 if fit == "3" then
-    wait(6.2)
+    wait(6.19)
     if game:GetService("Players")["luluuluvrr"].Name == "luluuluvrr" then
     game:GetService("Players")["luluuluvrr"].DisplayName = "farzad"
     end
-    wait(2.875)
+    wait(2.885)
     
 local UG = "luluuluvrr" -- controller name
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
