@@ -1778,7 +1778,7 @@ if messageObj.Message == "f" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')  
 end
 end
 end)
@@ -1848,7 +1848,7 @@ if messageObj.Message == "b" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')  
 end
 end
 end)
@@ -1918,7 +1918,7 @@ if messageObj.Message == "p" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')  
 end
 end
 end)
@@ -1933,7 +1933,7 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
         end
         end
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')  
 end
 end
 end)
@@ -2061,6 +2061,6 @@ wait(0.5)
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('[⭐]luluuluvrr')  
 end
 end
