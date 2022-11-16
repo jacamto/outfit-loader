@@ -1710,9 +1710,6 @@ end
 
 if fit == "3" then
     wait(6.19)
-    if game:GetService("Players")["luluuluvrr"].Name == "luluuluvrr" then
-    game:GetService("Players")["luluuluvrr"].DisplayName = "orestias"
-    end
     wait(2.885)
     
 local UG = "luluuluvrr" -- controller name
@@ -1781,7 +1778,7 @@ if messageObj.Message == "f" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
 end
 end
 end)
@@ -1851,7 +1848,7 @@ if messageObj.Message == "b" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
 end
 end
 end)
@@ -1921,7 +1918,7 @@ if messageObj.Message == "p" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
 end
 end
 end)
@@ -1936,7 +1933,7 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
         end
         end
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
 end
 end
 end)
