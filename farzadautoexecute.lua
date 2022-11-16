@@ -1,15 +1,11 @@
--- 1 = nothing
--- 2 = farzad
--- 3 = fiery horns
-
-
-
+-- 1 = fiery horns
+-- 2 = nothing
 
 local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
 local f = "215718515"   -- fiery horns
-local fit = "3"
-local loader = "3"
+local fit = "1"
+local loader = "1"
 local horns = f
 local name = "[⭐]luluuluvrr" -- orestias | farzad | [⭐]luluuluvrr
 
@@ -47,7 +43,11 @@ local name = "[⭐]luluuluvrr" -- orestias | farzad | [⭐]luluuluvrr
 
 
 
-if fit == "3" then
+
+
+
+
+if fit == "1" then
     wait(6.19)
     wait(2.885)
     
@@ -279,7 +279,7 @@ end)
 end
 
 -- auto outfit
-if loader == "3" then
+if loader == "1" then
 if game:GetService("Players")["luluuluvrr"].Name == "luluuluvrr" then
 wait(0.5)
         function l(a, _)
