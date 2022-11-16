@@ -4,10 +4,15 @@
 local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
 local f = "215718515"   -- fiery horns
+
+
 local fit = "1"
 local loader = "1"
+
+
 local horns = f
-local name = "[⭐]luluuluvrr" -- orestias | farzad | [⭐]luluuluvrr
+local star = "[⭐]luluuluvrr" -- orestias | farzad
+local name = "orestias" -- orestias | farzad | [⭐]luluuluvrr
 
 
 
@@ -273,6 +278,26 @@ if messageObj.Message == "noh" then
         end
         end
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = name 
+end
+end
+end)
+    
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == UG then
+if messageObj.Message == "star" then
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = star
+end
+end
+end)
+
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == UG then
+if messageObj.Message == "unstar" then
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 end
 end
 end)
