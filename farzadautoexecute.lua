@@ -3,7 +3,7 @@
 
 local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
-local f = "215718515"   -- fiery horns
+local f = "215718515"    -- fiery horns
 
 
 local fit = "1"
@@ -11,8 +11,8 @@ local loader = "1"
 
 
 local horns = f
-local star = "[⭐]luluuluvrr" -- orestias | farzad
-local name = "orestias" -- orestias | farzad | [⭐]luluuluvrr
+local star = "[⭐]luluuluvrr"  -- orestias | farzad
+local name = "orestias"         -- orestias | farzad | [⭐]luluuluvrr
 
 
 
