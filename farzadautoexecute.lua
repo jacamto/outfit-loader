@@ -2061,6 +2061,6 @@ wait(0.5)
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('farzad')  
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ('orestias')  
 end
 end
