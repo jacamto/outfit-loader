@@ -301,6 +301,20 @@ game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 end
 end
 end)
+    
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == UG then
+if messageObj.Message == "hats" then
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+		if v:IsA("Accessory") then
+			v:Destroy()
+		end
+    	end
+end
+end
+end)
 end
 
 -- auto outfit
