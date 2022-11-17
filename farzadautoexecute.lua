@@ -7,7 +7,7 @@ local f = "215718515"    -- fiery horns
 
 
 local fit = "1"
-local loader = "1"
+local loader = "0"
 
 
 local horns = b
