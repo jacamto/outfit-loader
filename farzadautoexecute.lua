@@ -10,7 +10,7 @@ local fit = "1"
 local loader = "1"
 
 
-local horns = f
+local horns = b
 local star = "[⭐]luluuluvrr"  -- orestias | farzad
 local name = "orestias"         -- orestias | farzad | [⭐]luluuluvrr
 
