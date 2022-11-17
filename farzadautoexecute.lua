@@ -4,15 +4,14 @@
 local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
 local f = "215718515"    -- fiery horns
+local star = "[⭐]luluuluvrr"  -- orestias | farzad | [⭐]luluuluvrr
+local name = "orestias"         -- orestias | farzad 
 
 
 local fit = "1"
-local loader = "0"
-
-
+local loader = "1"
+local startname = star
 local horns = b
-local star = "[⭐]luluuluvrr"  -- orestias | farzad
-local name = "orestias"         -- orestias | farzad | [⭐]luluuluvrr
 
 
 
@@ -121,8 +120,8 @@ if messageObj.Message == "f" then
         local _ = 215718515
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
-        game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = name 
+        game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
+	game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
 end)
@@ -191,8 +190,8 @@ if messageObj.Message == "b" then
         local _ = 74891470
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
-        game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = name  
+        game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
+	game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
 end)
@@ -261,8 +260,8 @@ if messageObj.Message == "p" then
         local _ = 1744060292
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
-        game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = name 
+        game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false
+	game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
 end)
@@ -277,7 +276,7 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
         end
         end
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = name 
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
 end)
@@ -312,6 +311,7 @@ if messageObj.Message == "hats" then
 			v:Destroy()
 		end
     	end
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
 end)
@@ -376,6 +376,6 @@ wait(0.5)
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.FlamingHorns.Handle.CanCollide = false  
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = name 
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
