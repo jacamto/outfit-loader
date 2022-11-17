@@ -11,7 +11,7 @@ local name = "orestias"         -- orestias | farzad
 local fit = "1"
 local loader = "1"
 local startname = star
-local horns = b
+local horns = f
 
 
 
