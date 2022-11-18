@@ -1,5 +1,4 @@
 -- 1 = fiery horns
--- 2 = nothing
 
 local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
@@ -9,8 +8,8 @@ local name = "orestias"         -- orestias | farzad
 
 
 local fit = "1"
-local loader = "1"
-local startname = star
+local loader = "0"
+local startname = name
 local horns = f
 
 
