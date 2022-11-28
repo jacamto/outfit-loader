@@ -342,16 +342,6 @@ if messageObj.Message == "moe" then
         game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
         end
         end
-	for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2") then
-        game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2"):Destroy()
-        end
-        end
-		for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("junkpods") then
-        game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
-        end
-        end
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
@@ -463,6 +453,16 @@ if messageObj.Message == "moe" then
         game.Players.luluuluvrr.Character.VoidStar.Handle.CanCollide = false
 	game.Players.luluuluvrr.Character.Headphones.Handle.CanCollide = false 
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
+		for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2") then
+        game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2"):Destroy()
+        end
+        end
+		for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("junkpods") then
+        game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
+        end
+        end
 end
 end
 end)
