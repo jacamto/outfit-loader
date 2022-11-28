@@ -276,6 +276,12 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
         end
         end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("VoidStar") then
+        game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
+	game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
+        end
+        end
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
