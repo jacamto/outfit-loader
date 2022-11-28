@@ -276,35 +276,15 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns"):Destroy()
         end
 	end
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
-end
-end
-end)
-
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
-if messageObj.Message == "noh" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-	if game.Players.luluuluvrr.Character:FindFirstChild("VoidStar") then
-	game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
+        if game.Players.luluuluvrr.Character:FindFirstChild("Headphones") then
+        game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
+        end
 	end
-	end
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
-end
-end
-end)
-	
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
-if messageObj.Message == "noh" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-	if game.Players.luluuluvrr.Character:FindFirstChild("Headphones") then
-	game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
-	end
+        if game.Players.luluuluvrr.Character:FindFirstChild("VoidStar") then
+        game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
+        end
 	end
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
@@ -352,43 +332,26 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == UG then
 if messageObj.Message == "moe" then
-for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-if game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2") then
-game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2"):Destroy()
-end
-elseif game.Players.luluuluvrr.Character:FindFirstChild("junkpods") then
-game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
-end
-end
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
-end
-end
-end)
-
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
-if messageObj.Message == "moe" then
-for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-if game.Players.luluuluvrr.Character:FindFirstChild("VoidStar") then
-game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
-end
-elseif game.Players.luluuluvrr.Character:FindFirstChild("Headphones") then
-game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
-end
-end
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
-end
-end
-end)
-
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
-if messageObj.Message == "moe" then
-			wait(0.15)
+	for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("VoidStar") then
+        game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
+        end
+        end
+	for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("Headphones") then
+        game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
+        end
+        end
+	for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2") then
+        game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2"):Destroy()
+        end
+        end
+		for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("junkpods") then
+        game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
+        end
+        end
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
