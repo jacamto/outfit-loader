@@ -317,6 +317,8 @@ end
 end)
 end
 
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == UG then
 if messageObj.Message == "moe" then
@@ -435,7 +437,7 @@ if messageObj.Message == "moe" then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.VoidStar.Handle.CanCollide = false
-	game.Players.luluuluvrr.Character.Headphones.Handle.CanCollide = false 
+	    game.Players.luluuluvrr.Character.Headphones.Handle.CanCollide = false 
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
@@ -622,7 +624,7 @@ wait(0.5)
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.luluuluvrr.Character, _)
         game.Players.luluuluvrr.Character.VoidStar.Handle.CanCollide = false
-	game.Players.luluuluvrr.Character.Headphones.Handle.CanCollide = false 
+	    game.Players.luluuluvrr.Character.Headphones.Handle.CanCollide = false 
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
