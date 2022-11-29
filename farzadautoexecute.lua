@@ -332,16 +332,6 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == UG then
 if messageObj.Message == "moe" then
-	for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("VoidStar") then
-        game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
-        end
-        end
-	for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-        if game.Players.luluuluvrr.Character:FindFirstChild("Headphones") then
-        game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
-        end
-        end
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
