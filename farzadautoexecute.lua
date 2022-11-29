@@ -325,7 +325,6 @@ game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
 end)
-end
 
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
@@ -450,6 +449,7 @@ if messageObj.Message == "moe" then
 end
 end
 end)
+end
 
 
 -- auto outfit
