@@ -1,4 +1,4 @@
--- v.0.01
+-- v.0.1
 
 -- 1 = fiery horns
 -- 2 = void and cwhp
