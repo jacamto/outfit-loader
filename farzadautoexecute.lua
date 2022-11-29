@@ -452,10 +452,16 @@ if messageObj.Message == "moe" then
         game.Players.luluuluvrr.Character.VoidStar.Handle.CanCollide = false
 	game.Players.luluuluvrr.Character.Headphones.Handle.CanCollide = false 
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
-	if game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2") then
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2") then
         game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2"):Destroy()
-	game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
         end
+	end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("junkpods") then
+        game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
+        end
+	end
 end
 end
 end)
