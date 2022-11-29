@@ -11,7 +11,7 @@ local name = "orestias"         -- orestias | farzad
 
 
 local fit = "1"
-local loader = "1", "2"
+local loader = {"1", "2"},
 local startname = name
 local horns = p
 
