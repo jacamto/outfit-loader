@@ -54,8 +54,8 @@ local horns = f
 
 
 
--- Wait for game to load
-repeat task.wait() until game:IsLoaded();
+
+
 
 if fit == "1" then
     wait(6.19)
