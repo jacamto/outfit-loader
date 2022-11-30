@@ -1,6 +1,4 @@
 -- v.0.1.4
--- Wait for game to load
-repeat task.wait() until game:IsLoaded();
 
 -- 1 = fiery horns
 -- 2 = void and cwhp
@@ -54,6 +52,10 @@ local horns = f
 
 
 
+
+
+-- Wait for game to load
+repeat task.wait() until game:IsLoaded();
 
 if fit == "1" then
     wait(6.19)
