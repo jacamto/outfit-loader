@@ -1,4 +1,6 @@
 -- v.0.1.3
+-- Wait for game to load
+repeat task.wait() until game:IsLoaded();
 
 -- 1 = fiery horns
 -- 2 = void and cwhp
