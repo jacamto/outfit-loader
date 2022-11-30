@@ -509,6 +509,11 @@ if messageObj.Message == "v" then
         game.Players.luluuluvrr.Character:FindFirstChild("Hat"):Destroy()
         end
 	end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("Headphones") then
+        game.Players.luluuluvrr.Character:FindFirstChild("Headphones"):Destroy()
+        end
+	end
 end
 end
 end)
