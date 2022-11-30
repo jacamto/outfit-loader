@@ -404,6 +404,16 @@ if messageObj.Message == "v" then
         game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
         end
 	end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("Comb") then
+        game.Players.luluuluvrr.Character:FindFirstChild("Comb"):Destroy()
+        end
+	end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("Hat") then
+        game.Players.luluuluvrr.Character:FindFirstChild("Hat"):Destroy()
+        end
+	end
 end
 end
 end)
@@ -536,10 +546,26 @@ end
 if loader == "2" then
 if game:GetService("Players")["luluuluvrr"].Name == "luluuluvrr" then
 wait(0.5)
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2") then
         game.Players.luluuluvrr.Character:FindFirstChild("BatCrown2"):Destroy()
-	game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
         end
+	end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("junkpods") then
+        game.Players.luluuluvrr.Character:FindFirstChild("junkpods"):Destroy()
+        end
+	end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("Comb") then
+        game.Players.luluuluvrr.Character:FindFirstChild("Comb"):Destroy()
+        end
+	end
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("Hat") then
+        game.Players.luluuluvrr.Character:FindFirstChild("Hat"):Destroy()
+        end
+	end
         function l(a, _)
             local b = Instance.new("Weld")
             b.Part0 = a.Parent
