@@ -860,3 +860,6 @@ wait(0.5)
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
+
+wait(1)
+https://raw.githubusercontent.com/tekuuu/outfit-loader/main/sistersstuff.lua
