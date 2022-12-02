@@ -260,7 +260,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "psyw" then
-if messageObj.Message == "noh" then
+if messageObj.Message == nohats then
     for i,v in pairs(game.Players.psyw.Character:GetChildren()) do
         if game.Players.psyw.Character:FindFirstChild("FlamingHorns") then
         game.Players.psyw.Character:FindFirstChild("FlamingHorns"):Destroy()
