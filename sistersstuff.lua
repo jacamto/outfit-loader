@@ -3,7 +3,7 @@
 -- config stuff
 local sisstar = "[🤍]psyw"
 local sisname = "luna"
-local superheroAnim = "super"
+local superheroAnim = "super" -- you can change whats in the ""'s to any command u want for example "s"
 
 -- outfit
 local fit2 = "1"
