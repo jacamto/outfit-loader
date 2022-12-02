@@ -1,5 +1,5 @@
 -- v.0.1.8
-wait(4)
+wait(2)
 -- 1 = fiery horns
 -- 2 = void and cwhp
 -- 3 = just void
@@ -68,8 +68,7 @@ end
 
 
 if fit == "1" then
-    wait(4)
-    
+    wait(2)
 local UG = "luluuluvrr" -- controller name
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
