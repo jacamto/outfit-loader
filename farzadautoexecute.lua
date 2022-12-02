@@ -18,15 +18,6 @@ local horns = f
 
 
 
--- sisters config
-local sisstar = "[⭐]psyw"
-local sisname = "luna" 
-
-local fit2 = "1"
-
-
-
-
 
 
 
@@ -868,42 +859,4 @@ wait(0.5)
         game.Players.luluuluvrr.Character.VoidStar.Handle.CanCollide = false
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
-end
-
-
-if fit2 == "1" then
-    wait(6.19)
-    wait(2.885)
-    
-local UE = "psyw" -- controller name
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UE then
-if messageObj.Message == "super" then
-    game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=10921288909"
-    game.Players.psyw.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=10921290167"
-    end
-    end
-    end)
-    
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UE then
-if messageObj.Message == "star" then
-game.Players.psyw.Character.Humanoid.DisplayName = sisstar
-end
-end
-end)
-
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UE then
-if messageObj.Message == "unstar" then
-game.Players.psyw.Character.Humanoid.DisplayName = sisname
-end
-end
-end)
 end
