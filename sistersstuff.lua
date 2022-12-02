@@ -1,8 +1,8 @@
 -- im happy i got to do this even if its rly small,, love u sis <3
 
 -- config stuff
-local sisstar = "[🤍]psyw"
-local sisname = "luna"
+local sisstar = "[🤍]psyw" -- your 'star' make it what u want <3
+local sisname = "luna" -- your og name, if you ever decide on changing it then ya
 local superheroAnim = "super" -- you can change whats in the ""'s to any command u want for example "s"
 
 -- outfit
