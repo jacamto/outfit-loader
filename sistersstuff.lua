@@ -2,8 +2,8 @@
 -- im happy i got to do this even if its rly small,, love u sis <3
 
 -- config stuff
-local sisheart = "[🤍]psyw" -- your 'star' make it what u want <3
-local sisname = "luna" -- your og name, if you ever decide on changing it then ya
+local sisheart = "[🤍]psyw"  -- your 'star' make it what u want <3
+local sisname = "luna"        -- your og name, if you ever decide on changing it then ya
 
 local superheroAnim = "super" -- can change this to any command u want! (gives superhero idle)
 local frozen = "b"            -- can change this to any command u want! (gives frozen horns of the frigid planes)
