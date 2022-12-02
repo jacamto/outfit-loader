@@ -68,8 +68,7 @@ end
 
 
 if fit == "1" then
-    wait(6.19)
-    wait(2.885)
+    wait(4)
     
 local UG = "luluuluvrr" -- controller name
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
