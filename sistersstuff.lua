@@ -1,8 +1,9 @@
 -- im happy i got to do this even if its rly small,, love u sis <3
 
 -- config stuff
-local sisstar = "[⭐]psyw"
+local sisstar = "[🤍]psyw"
 local sisname = "luna"
+local superheroAnim = "super"
 
 -- outfit
 local fit2 = "1"
@@ -33,7 +34,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "psyw" then
-if messageObj.Message == "super" then
+if messageObj.Message == superheroAnim then
     game.Players.psyw.Character.Humanoid.Jump = true
     wait(0.1)
     game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=10921288909"
