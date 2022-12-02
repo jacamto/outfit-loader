@@ -869,5 +869,3 @@ wait(0.5)
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
-
-
