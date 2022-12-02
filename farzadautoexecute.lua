@@ -1,4 +1,4 @@
--- v.0.1.6
+-- v.0.1.7
 
 -- 1 = fiery horns
 -- 2 = void and cwhp
@@ -11,6 +11,7 @@ local star = "[⭐]luluuluvrr"  -- orestias | farzad | [⭐]luluuluvrr
 local name = "orestias"         -- orestias | farzad 
 
 
+local sister2 = "1"
 local fit = "1"
 local loader = "3"
 local startname = name
@@ -50,7 +51,9 @@ local horns = f
 
 
 
-
+if sister2 == "1" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/sistersstuff.lua"))()
+end
 
 
 
@@ -860,6 +863,3 @@ wait(0.5)
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
-
-wait(1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/sistersstuff.lua"))()
