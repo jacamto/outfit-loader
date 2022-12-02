@@ -36,6 +36,7 @@ if messageObj.FromSpeaker == "psyw" then
 if messageObj.Message == "super" then
     game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=10921288909"
     game.Players.psyw.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=10921290167"
+    game.Players.psyw.Character.Humanoid.Jump = true
     end
     end
     end)
