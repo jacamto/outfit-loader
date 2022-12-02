@@ -8,7 +8,7 @@ local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
 local f = "215718515"    -- fiery horns
 local star = "[⭐]luluuluvrr"  -- orestias | farzad | [⭐]luluuluvrr
-local name = "orestias"         -- orestias | farzad 
+local name = "moe"         -- orestias | moe | farzad 
 
 
 local sister2 = "1"
