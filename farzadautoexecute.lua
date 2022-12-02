@@ -58,7 +58,7 @@ local horns = f
 
 
 if sister2 == "1" then
-wait(10)
+wait(8)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/sistersstuff.lua"))()
 end
 
