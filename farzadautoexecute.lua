@@ -530,9 +530,9 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == UG then
 if messageObj.Message == "sk" then
-    for i,v in pairs(game.Players.psyw.Character:GetChildren()) do
-        if game.Players.psyw.Character:FindFirstChild("KingOfTheNight_Silver") then
-        game.Players.psyw.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver") then
+        game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
         end
 	end
         function l(a, _)
@@ -624,9 +624,9 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
         end
 	end
-    for i,v in pairs(game.Players.psyw.Character:GetChildren()) do
-        if game.Players.psyw.Character:FindFirstChild("KingOfTheNight_Silver") then
-        game.Players.psyw.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
+    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver") then
+        game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
         end
 	end
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
