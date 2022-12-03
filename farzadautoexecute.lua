@@ -624,6 +624,11 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("VoidStar"):Destroy()
         end
 	end
+    for i,v in pairs(game.Players.psyw.Character:GetChildren()) do
+        if game.Players.psyw.Character:FindFirstChild("KingOfTheNight_Silver") then
+        game.Players.psyw.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
+        end
+	end
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
