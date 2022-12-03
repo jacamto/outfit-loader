@@ -529,7 +529,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == UG then
-if messageObj.Message == "sk" then
+if messageObj.Message == "sko" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver") then
         game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
