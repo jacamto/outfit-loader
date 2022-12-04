@@ -69,11 +69,10 @@ end
 
 if fit == "1" then
     wait(2)
-local UG = "luluuluvrr" -- controller name
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "f" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
@@ -143,7 +142,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "b" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
@@ -213,7 +212,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "p" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
@@ -283,7 +282,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "vc" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("Headphones") then
@@ -433,7 +432,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "v" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("VoidStar") then
@@ -528,8 +527,8 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
-if messageObj.Message == "sko" then
+if messageObj.FromSpeaker == "luluuluvrr" then
+if messageObj.Message == "sk" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver") then
         game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
@@ -597,7 +596,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "j sis" then
 game.Players.psyw.Character.Humanoid.Jump = true
 end
@@ -607,7 +606,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "noh" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
         if game.Players.luluuluvrr.Character:FindFirstChild("FlamingHorns") then
@@ -637,7 +636,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "star" then
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = star
 end
@@ -647,7 +646,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "unstar" then
 game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 end
@@ -657,7 +656,7 @@ end)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == UG then
+if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "hats" then
     for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
 		if v:IsA("Accessory") then
