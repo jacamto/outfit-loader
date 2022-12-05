@@ -13,7 +13,7 @@ local name = "moe"         -- orestias | moe | farzad
 
 local sister2 = "1"
 local fit = "1"
-local loader = "3"
+local loader = "0"
 local startname = name
 local horns = f
 
