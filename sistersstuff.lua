@@ -6,7 +6,7 @@ local sisheart = "[🤍]psyw"  -- your 'star' make it what u want <3
 local sisname = "luna"        -- your og name, if you ever decide on changing it then ya
 
 local superheroAnim = "super" -- can change this to any command u want! (gives superhero idle)
-local popstarAnim = "."     -- can change this to any command u want! (gives popstar idle)
+local popstarAnim = "p"     -- can change this to any command u want! (gives popstar idle)
 local frozen = "b"            -- can change this to any command u want! (gives frozen horns of the frigid planes)
 local SKotN = "sk"            -- can change this to any command u want! (gives silver king of the night)
 local CWHP = "c"              -- can change this to any command u want! (gives clockwork headphones)
@@ -58,6 +58,7 @@ if messageObj.Message == popstarAnim then
 game.Players.psyw.Character.Humanoid.Jump = true
 wait(0.1)
 game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1212900985"
+game.Players.psyw.Character.Animate.idle.Animation2:Destroy()
 end
 end
 end)
