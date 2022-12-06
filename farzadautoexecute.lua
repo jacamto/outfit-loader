@@ -667,17 +667,6 @@ game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
 end)
-
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == "luluuluvrr" then
-if messageObj.Message == "cat" then
-game.Players.luluuluvrr.Character.Shirt.ShirtTemplate = "rbxassetid://11753886163"
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
-end
-end
-end)
 end
 
 -- auto outfit
