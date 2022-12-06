@@ -1,4 +1,4 @@
--- v.0.2.1
+-- v.0.2.2
 -- im happy i got to do this even if its rly small,, love u sis <3
 
 -- config stuff
