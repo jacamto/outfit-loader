@@ -5,7 +5,6 @@
 local sisheart = "[🤍]psyw"  -- your 'star' make it what u want <3
 local sisname = "luna"        -- your og name, if you ever decide on changing it then ya
 
-local superheroAnim = "super" -- can change this to any command u want! (gives superhero idle)
 local popstarAnim = "."     -- can change this to any command u want! (gives popstar idle)
 local frozen = "b"            -- can change this to any command u want! (gives frozen horns of the frigid planes)
 local SKotN = "sk"            -- can change this to any command u want! (gives silver king of the night)
@@ -36,19 +35,6 @@ local fit2 = "1"
 
 
 if fit2 == "1" then
-    
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == "psyw" then
-if messageObj.Message == superheroAnim then
-game.Players.psyw.Character.Humanoid.Jump = true
-wait(0.1)
-game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=10921288909"
-game.Players.psyw.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=10921290167"
-end
-end
-end)
 	
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
