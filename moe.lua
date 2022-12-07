@@ -64,7 +64,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/
 end
 
 if noel1 == "1" then
-wait(8)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/noelsstuff.lua"))()
 end
 
