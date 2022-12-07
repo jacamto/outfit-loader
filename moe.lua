@@ -14,7 +14,7 @@ local name = "moe"         -- orestias | moe | farzad
 local sister2 = "1"
 local noel1 = "1"
 local fit = "1"
-local loader = "1"
+local loader = "0"
 local startname = name
 local horns = b
 
