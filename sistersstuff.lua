@@ -117,6 +117,21 @@ if messageObj.Message == frozen then
 end
 end
 end)
+	
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "psyw" then
+if messageObj.Message == "r" then
+game.Players.psyw.Character.Humanoid.Jump = true
+wait(0.1)
+game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=4211217646"
+game.Players.psyw.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=4211218409"
+game.Players.psyw.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=10921263860"
+game.Players.psyw.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=10921262864"
+end
+end
+end)
     
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
