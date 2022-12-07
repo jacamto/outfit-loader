@@ -617,6 +617,19 @@ game.Players.luluuluvrr.Character.Animate.idle.Animation2.AnimationId = "http://
 end
 end
 end)
+	
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "luluuluvrr" then
+if messageObj.Message == "cat" then
+game.Players.luluuluvrr.Character.Humanoid.Jump = true
+wait(0.1)
+game.Players.luluuluvrr.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1132473842"
+game.Players.luluuluvrr.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1132477671"
+end
+end
+end)
 
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
