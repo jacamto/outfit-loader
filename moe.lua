@@ -1,4 +1,4 @@
--- v.0.3.2
+-- v.0.3.3
 wait(2)
 -- 1 = fiery horns
 -- 2 = void and cwhp
@@ -614,6 +614,8 @@ game.Players.luluuluvrr.Character.Humanoid.Jump = true
 wait(0.1)
 game.Players.luluuluvrr.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=4211217646"
 game.Players.luluuluvrr.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=4211218409"
+game.Players.luluuluvrr.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=10921263860"
+game.Players.luluuluvrr.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=10921262864"
 end
 end
 end)
@@ -627,6 +629,8 @@ game.Players.luluuluvrr.Character.Humanoid.Jump = true
 wait(0.1)
 game.Players.luluuluvrr.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1132473842"
 game.Players.luluuluvrr.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1132477671"
+game.Players.luluuluvrr.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1132489853"
+game.Players.luluuluvrr.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1132469004"
 end
 end
 end)
