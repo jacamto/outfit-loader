@@ -1,8 +1,8 @@
--- v.0.0.1
+-- v.0.0.2
 -- happy to work on these kinda stuff : )
 
 local fit3 = "1"
-local princessAnim = "p"
+local princessAnim = "m"
 
 
 
