@@ -1,4 +1,4 @@
--- v.0.3.1
+-- v.0.3.2
 wait(2)
 -- 1 = fiery horns
 -- 2 = void and cwhp
