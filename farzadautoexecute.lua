@@ -12,6 +12,7 @@ local name = "moe"         -- orestias | moe | farzad
 
 
 local sister2 = "1"
+local noel1 = "1"
 local fit = "1"
 local loader = "0"
 local startname = name
@@ -60,6 +61,11 @@ local horns = f
 if sister2 == "1" then
 wait(8)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/sistersstuff.lua"))()
+end
+
+if noel1 == "1" then
+wait(8)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/noelsstuff.lua"))()
 end
 
 
