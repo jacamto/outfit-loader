@@ -1,5 +1,5 @@
 -- v.0.0.2
--- happy to work on these kinda stuff : )
+-- happy to work on this kinda stuff : )
 
 local fit3 = "1"
 local princessAnim = "m"
