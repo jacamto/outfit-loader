@@ -1,4 +1,4 @@
--- v.0.2.8
+-- v.0.2.9
 wait(2)
 -- 1 = fiery horns
 -- 2 = void and cwhp
@@ -12,7 +12,6 @@ local name = "moe"         -- orestias | moe | farzad
 
 
 local sister2 = "1"
-local noel1 = "1"
 local fit = "1"
 local loader = "0"
 local startname = name
