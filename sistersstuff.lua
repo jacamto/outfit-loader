@@ -6,7 +6,7 @@ local sisheart = "[🤍]psyw"  -- your 'star' make it what u want <3
 local sisname = "luna"        -- your og name, if you ever decide on changing it then ya
 
 local popstarAnim = "."     -- can change this to any command u want! (gives popstar idle)
-local rhs = "r"     -- can change this to any command u want! (gives popstar idle)
+local rhs = "r"             -- can change this to any command u want! (gives robloxian high school idle)
 local frozen = "b"            -- can change this to any command u want! (gives frozen horns of the frigid planes)
 local SKotN = "sk"            -- can change this to any command u want! (gives silver king of the night)
 local CWHP = "c"              -- can change this to any command u want! (gives clockwork headphones)
@@ -46,6 +46,19 @@ game.Players.psyw.Character.Humanoid.Jump = true
 wait(0.1)
 game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1212900985"
 game.Players.psyw.Character.Animate.idle.Animation2:Destroy()
+end
+end
+end)
+	
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "psyw" then
+if messageObj.Message == rhs then
+game.Players.psyw.Character.Humanoid.Jump = true
+wait(0.1)
+game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=4211217646"
+game.Players.psyw.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=4211218409"
 end
 end
 end)
@@ -115,19 +128,6 @@ if messageObj.Message == frozen then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.psyw.Character, _)
         game.Players.psyw.Character.FlamingHorns.Handle.CanCollide = false
-end
-end
-end)
-	
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == "psyw" then
-if messageObj.Message == rhs then
-game.Players.psyw.Character.Humanoid.Jump = true
-wait(0.1)
-game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=4211217646"
-game.Players.psyw.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=4211218409"
 end
 end
 end)
