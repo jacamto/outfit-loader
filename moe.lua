@@ -625,7 +625,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "luluuluvrr" then
-if messageObj.Message == "cat" then
+if messageObj.Message == "catt" then
 game.Players.luluuluvrr.Character.Humanoid.Jump = true
 wait(0.1)
 game.Players.luluuluvrr.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1132473842"
