@@ -708,7 +708,12 @@ EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "o1" then
 for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-if v:IsA("Accessory") or v:IsA("Weld") then
+if v:IsA("Accessory") then
+v:Destroy()
+end
+end
+for i,v in pairs(game.Players.luluuluvrr.Character.Head:GetChildren()) do
+if v:IsA("Weld") then
 v:Destroy()
 end
 end
@@ -1018,7 +1023,12 @@ EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "o2" then
 for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-if v:IsA("Accessory") or v:IsA("Weld") then
+if v:IsA("Accessory") then
+v:Destroy()
+end
+end
+for i,v in pairs(game.Players.luluuluvrr.Character.Head:GetChildren()) do
+if v:IsA("Weld") then
 v:Destroy()
 end
 end
