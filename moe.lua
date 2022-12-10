@@ -989,6 +989,7 @@ game.Players.luluuluvrr.Character["MeshPartAccessory"].Handle.CanCollide = false
 game.Players.luluuluvrr.Character.KingOfTheNight_Silver.Handle.CanCollide = false
 game.Players.luluuluvrr.Character.ketchupleftAccessory.Handle.CanCollide = false
 game.Players.luluuluvrr.Character.penguinSlippersB.Handle.CanCollide = false
+game.Players.luluuluvrr.Character.Head.MeshId = "rbxassetid://6686307858"
 game.Players.luluuluvrr.Character.Head.CanCollide = false
 q = BrickColor.new("Institutional white")
 game.Players.luluuluvrr.Character.Head.BrickColor = q
