@@ -1,5 +1,6 @@
 -- v.0.3.8 (for the love of monayyy)
 wait(2)
+
 -- 1 = fiery horns
 -- 2 = void and cwhp
 -- 3 = just void
@@ -17,8 +18,6 @@ local fit = "1"
 local loader = "0"
 local startname = name
 local horns = b
-
-
 
 
 
