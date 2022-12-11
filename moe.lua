@@ -1,4 +1,4 @@
--- v.0.3.8 (for the love of monayyy)
+-- v.0.3.9 (everybody knows that im a good girl officer ❤️)
 wait(2)
 
 -- 1 = fiery horns
@@ -9,7 +9,7 @@ local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
 local f = "215718515"    -- fiery horns
 local star = "[⭐]luluuluvrr"  -- orestias | farzad | [⭐]luluuluvrr
-local name = "moe"         -- orestias | moe | farzad 
+local name = "kittysp1t"         -- orestias | moe | farzad | kittysp1t
 
 
 local sister2 = "1"
