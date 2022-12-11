@@ -1,4 +1,4 @@
--- v.0.4.1 (everybody knows that im a good girl officer ❤️)
+-- v.0.4.2 (everybody knows that im a good girl officer ❤️)
 wait(2)
 
 -- 1 = fiery horns
@@ -2507,6 +2507,8 @@ if messageObj.Message == "o4" then
         game.Players.luluuluvrr.Character["Meshes/PandaPet-backAccessory"].Handle.CanCollide = false
         game.Players.luluuluvrr.Character["Shocked Expression"].Handle.CanCollide = false
         game.Players.luluuluvrr.Character["Cross Necklace"].Handle.CanCollide = false
+	game.Players.luluuluvrr.Character["Cross Necklace"].Handle.SpecialMesh.Offset = Vector3.new(0, 0, 0.07)
+	game.Players.luluuluvrr.Character["Cross Necklace"].Handle.SpecialMesh.Scale = Vector3.new(0.6, 1, 0.55)
         game.Players.luluuluvrr.Character["MeshPartAccessory"].Handle.CanCollide = false
         game.Players.luluuluvrr.Character["MeshPartAccessory"].Handle.SpecialMesh.Scale = Vector3.new(1.02, 1, 1)
         game.Players.luluuluvrr.Character["Bubble Burst Buns in Black"].Handle.CanCollide = false
