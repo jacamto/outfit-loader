@@ -1888,6 +1888,8 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "anim" then
+game.Players.luluuluvrr.Character.Humanoid.Jump = true
+wait(0.15)
 local Anim = Instance.new("Animation")
 Anim.AnimationId = "rbxassetid://11753474067"
 game.Players.luluuluvrr.Character:FindFirstChildOfClass('Humanoid'):LoadAnimation(Anim):Play()
