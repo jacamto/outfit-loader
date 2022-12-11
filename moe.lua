@@ -1,4 +1,4 @@
--- v.0.4.0 (everybody knows that im a good girl officer ❤️)
+-- v.0.4.1 (everybody knows that im a good girl officer ❤️)
 wait(2)
 
 -- 1 = fiery horns
@@ -661,7 +661,7 @@ if messageObj.Message == "noh" then
         game.Players.luluuluvrr.Character:FindFirstChild("KingOfTheNight_Silver"):Destroy()
         end
 	end
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 end
 end
 end)
@@ -691,12 +691,17 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "luluuluvrr" then
 if messageObj.Message == "hats" then
-    for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
-		if v:IsA("Accessory") then
-			v:Destroy()
-		end
-    	end
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
+    for i,v in pairs(game.Players.luluuluvrr.Character.Head:GetChildren()) do
+        if v:IsA("Weld") then
+        v:Destroy()
+        end
+        end
+        for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if v:IsA("Accessory") then
+        v:Destroy()
+        end
+        end
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 end
 end
 end)
@@ -1010,7 +1015,7 @@ game.Players.luluuluvrr.Character["RightFoot"].BrickColor = q
 game.Players.luluuluvrr.Character["LeftFoot"].BrickColor = q
 game.Players.luluuluvrr.Character["RightHand"].BrickColor = q
 game.Players.luluuluvrr.Character["LeftHand"].BrickColor = q
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = ("kittysp1t")
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 game.Players.luluuluvrr.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
 end
 end
@@ -1443,7 +1448,7 @@ game.Players.luluuluvrr.Character["RightFoot"].BrickColor = q
 game.Players.luluuluvrr.Character["LeftFoot"].BrickColor = q
 game.Players.luluuluvrr.Character["RightHand"].BrickColor = q
 game.Players.luluuluvrr.Character["LeftHand"].BrickColor = q
-game.Players.luluuluvrr.Character.Humanoid.DisplayName = ("kittysp1t")
+game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 game.Players.luluuluvrr.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
 end
 end
@@ -1877,7 +1882,661 @@ if messageObj.Message == "o3" then
         game.Players.luluuluvrr.Character["LeftFoot"].BrickColor = q
         game.Players.luluuluvrr.Character["RightHand"].BrickColor = q
         game.Players.luluuluvrr.Character["LeftHand"].BrickColor = q
-        game.Players.luluuluvrr.Character.Humanoid.DisplayName = ("kittysp1t")
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
+	game.Players.luluuluvrr.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
+end
+end
+end)
+	
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "luluuluvrr" then
+if messageObj.Message == "o4" then
+    for i,v in pairs(game.Players.luluuluvrr.Character.Head:GetChildren()) do
+        if v:IsA("Weld") then
+        v:Destroy()
+        end
+        end
+        for i,v in pairs(game.Players.luluuluvrr.Character:GetChildren()) do
+        if v:IsA("Accessory") then
+        v:Destroy()
+        end
+        end
+        for i,v in pairs(game.Players.luluuluvrr.Character.Head:GetChildren()) do
+        if game.Players.luluuluvrr.Character.Head:FindFirstChild("face") then
+        game.Players.luluuluvrr.Character.Head:FindFirstChild("face"):Destroy()
+        end
+        end
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 5895300200
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 4588475498
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 9681626036
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 11135338145
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 11697221756
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 439945661
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 11484236056
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 11165433476
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 6965372930
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 6134536229
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        function l(a, _)
+            local b = Instance.new("Weld")
+            b.Part0 = a.Parent
+            b.Part1 = _.Parent
+            b.C0 = a.CFrame
+            b.C1 = _.CFrame
+            b.Parent = a.Parent
+            return b
+        end
+        local function _(_, a, b, d, c, e)
+            local f = Instance.new("Weld")
+            f.Name = _
+            f.Part0 = b
+            f.Part1 = d
+            f.C0 = c
+            f.C1 = e
+            f.Parent = a
+            return f
+        end
+        local function a(_, b)
+            for _, _ in pairs(_:GetChildren()) do
+                if _:IsA("Attachment") and _.Name == b then
+                    return _
+                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                    local _ = a(_, b)
+                    if _ then
+                        return _
+                    end
+                end
+            end
+        end
+        function k(e, c)
+            c.Parent = e
+            local d = c:FindFirstChild("Handle")
+            if d then
+                local b = d:FindFirstChildOfClass("Attachment")
+                if b then
+                    local _ = a(e, b.Name)
+                    if _ then
+                        l(_, b)
+                    end
+                else
+                    local e = e:FindFirstChild("Head")
+                    if e then
+                        local b = CFrame.new(0, 0, 0)
+                        local a = c.AttachmentPoint
+                        _("HeadWeld", e, e, d, b, a)
+                    end
+                end
+            end
+        end
+        local _ = 6134532324
+        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+        k(game.Players.luluuluvrr.Character, _)
+        game.Players.luluuluvrr.Character.Shirt.ShirtTemplate = "rbxassetid://11538530367"
+        game.Players.luluuluvrr.Character.Pants.PantsTemplate = "rbxassetid://4869705929"
+        game.Players.luluuluvrr.Character["Meshes/PandaPet-backAccessory"].Handle.CanCollide = false
+        game.Players.luluuluvrr.Character["Shocked Expression"].Handle.CanCollide = false
+        game.Players.luluuluvrr.Character["Cross Necklace"].Handle.CanCollide = false
+        game.Players.luluuluvrr.Character["MeshPartAccessory"].Handle.CanCollide = false
+        game.Players.luluuluvrr.Character["MeshPartAccessory"].Handle.SpecialMesh.Scale = Vector3.new(1.02, 1, 1)
+        game.Players.luluuluvrr.Character["Bubble Burst Buns in Black"].Handle.CanCollide = false
+        game.Players.luluuluvrr.Character.PandaEarsAccessory.Handle.CanCollide = false
+        game.Players.luluuluvrr.Character.FearlessKanjiTattoo.Handle.CanCollide = false
+        game.Players.luluuluvrr.Character.KingOfTheNight_Silver.Handle.CanCollide = false
+        game.Players.luluuluvrr.Character.SweptBangsAccessory.Handle.CanCollide = false
+        game.Players.luluuluvrr.Character.FashionistaBangsAccessory.Handle.CanCollide = false
+        game.Players.luluuluvrr.Character.NewSideBangsCaramelAccessory.Handle.CanCollide = false
+        game.Players.luluuluvrr.Character.Head.MeshId = "rbxassetid://8635369204"
+        Instance.new("Decal", game.Players.luluuluvrr.Character.Head)
+        game.Players.luluuluvrr.Character.Head.Decal.Name = "face"
+        game.Players.luluuluvrr.Character.Head.face.Texture = "rbxassetid://494290547"
+        game.Players.luluuluvrr.Character.Head.CanCollide = false
+        q = BrickColor.new("Light orange")
+        game.Players.luluuluvrr.Character.Head.BrickColor = q
+        game.Players.luluuluvrr.Character.UpperTorso.BrickColor = q
+        game.Players.luluuluvrr.Character["RightLowerArm"].BrickColor = q
+        game.Players.luluuluvrr.Character["LeftLowerArm"].BrickColor = q
+        game.Players.luluuluvrr.Character["RightUpperArm"].BrickColor = q
+        game.Players.luluuluvrr.Character["LeftUpperArm"].BrickColor = q
+        game.Players.luluuluvrr.Character["LeftLowerLeg"].BrickColor = q
+        game.Players.luluuluvrr.Character["RightLowerLeg"].BrickColor = q
+        game.Players.luluuluvrr.Character["RightUpperLeg"].BrickColor = q
+        game.Players.luluuluvrr.Character["LeftUpperLeg"].BrickColor = q
+        game.Players.luluuluvrr.Character["RightFoot"].BrickColor = q
+        game.Players.luluuluvrr.Character["LeftFoot"].BrickColor = q
+        game.Players.luluuluvrr.Character["RightHand"].BrickColor = q
+        game.Players.luluuluvrr.Character["LeftHand"].BrickColor = q
+        game.Players.luluuluvrr.Character.Humanoid.DisplayName = name
 	game.Players.luluuluvrr.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
 end
 end
