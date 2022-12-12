@@ -1,9 +1,28 @@
 -- v.0.4.3 (everybody knows that im a good girl officer ❤️)
 wait(2)
 
--- 1 = fiery horns
--- 2 = void and cwhp
--- 3 = just void
+	-- 1 = fiery horns
+	-- 2 = void and cwhp
+	-- 3 = just void
+
+	--{ALL COMMANDS - 
+	-- f = fiery horns,
+	-- b = frozen horns,
+	-- p = poison horns,
+	-- v = void star,
+	-- vc = void+CWHP,
+	-- sk = skotn,
+	-- noh = removes limiteds,
+	-- hats = removes all accessories,
+	-- o1 = layered clothing fit,
+	-- -- o2 = layered clothing fit,
+	-- o3 = cute fit,
+	-- o4 = panda fit cuteee,
+	-- wo = winter outfit,
+	-- anim = emote,
+	-- rhs = animation changer,
+	-- catt = animation changer}
+
 
 local p = "1744060292"  -- poison horns
 local b = "74891470"    -- frozen horns
