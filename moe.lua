@@ -1,4 +1,4 @@
--- v.0.4.3 (everybody knows that im a good girl officer ❤️)
+-- v.0.4.4 (everybody knows that im a good girl officer ❤️)
 wait(2)
 
 	-- 1 = fiery horns
@@ -15,7 +15,7 @@ wait(2)
 	-- noh = removes limiteds,
 	-- hats = removes all accessories,
 	-- o1 = layered clothing fit,
-	-- -- o2 = layered clothing fit,
+	-- o2 = layered clothing fit,
 	-- o3 = cute fit,
 	-- o4 = panda fit cuteee,
 	-- wo = winter outfit,
@@ -37,15 +37,6 @@ local fit = "1"
 local loader = "0"
 local startname = name
 local horns = b
-
-
-
-
-
-
-
-
-
 
 
 
