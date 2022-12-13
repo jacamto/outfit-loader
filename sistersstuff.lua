@@ -11,6 +11,7 @@ local frozen = "b"            -- can change this to any command u want! (gives f
 local SKotN = "sk"            -- can change this to any command u want! (gives silver king of the night)
 local CWHP = "c"              -- can change this to any command u want! (gives clockwork headphones)
 local nohats = "noh"          -- can change this to any command u want! (removes all limiteds equipped by this script)
+local epic vamp x3 = "v"      -- can change this to any command u want! (gives epic vampire!!!!)
 
 -- outfit
 local fit2 = "1"
@@ -59,6 +60,16 @@ game.Players.psyw.Character.Humanoid.Jump = true
 wait(0.1)
 game.Players.psyw.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=4211217646"
 game.Players.psyw.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=4211218409"
+end
+end
+end)
+	
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "psyw" then
+if messageObj.Message == v then
+game.Players.psyw.Character.Head.face.Texture = "rbxassetid://181661839"
 end
 end
 end)
