@@ -68,7 +68,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "psyw" then
-if messageObj.Message == v then
+if messageObj.Message == epic vamp x3 then
 game.Players.psyw.Character.Head.face.Texture = "rbxassetid://181661839"
 end
 end
