@@ -7,7 +7,7 @@ local sisname = "luna"        -- your og name, if you ever decide on changing it
 
 local popstarAnim = "."     -- can change this to any command u want! (gives popstar idle)
 local rhs = "r"             -- can change this to any command u want! (gives robloxian high school idle)
-local epic vamp x3 = "v"      -- can change this to any command u want! (gives epic vampire!!!!)
+local epic = "v"      -- can change this to any command u want! (gives epic vampire!!!!)
 local frozen = "b"            -- can change this to any command u want! (gives frozen horns of the frigid planes)
 local SKotN = "sk"            -- can change this to any command u want! (gives silver king of the night)
 local CWHP = "c"              -- can change this to any command u want! (gives clockwork headphones)
@@ -68,7 +68,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "psyw" then
-if messageObj.Message == epic vamp x3 then
+if messageObj.Message == epic then
 game.Players.psyw.Character.Head.face.Texture = "rbxassetid://181661839"
 end
 end
