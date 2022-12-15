@@ -34,7 +34,7 @@ local name = "moe"         -- orestias | moe | farzad | kittysp1t
 
 local sister2 = "1"
 local noel1 = "1"
-local rushstuff = "1"
+local rushstuff1 = "1"
 local fit = "1"
 local loader = "0"
 local startname = name
@@ -78,12 +78,12 @@ if noel1 == "1" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/noelsstuff.lua"))()
 end
 
-if rushstuff == "1" then
+if rushstuff1 == "1" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/rushstuff.lua"))()
 end
 
 if fit == "1" then
-    wait(2)
+    wait(5)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
