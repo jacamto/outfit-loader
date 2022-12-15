@@ -1,4 +1,5 @@
 local skotn = "sk" -- loads skotn
+local refresh = "re" -- refreshes the autoload if flung
 local autoload = true
 local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | RushsRevival
 
@@ -83,6 +84,26 @@ if messageObj.Message == skotn then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.DreamingRush.Character, _)
         game.Players.DreamingRush.Character.KingOfTheNight_Silver.Handle.CanCollide = false
+end
+end
+end)
+
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "DreamingRush" then
+if messageObj.Message == refresh then
+while true do
+    wait(1)
+game.Players.DreamingRush.Character.Humanoid.DisplayName = name
+game.Players.DreamingRush.Character.Head.MeshId = "rbxassetid://6686307858"
+game.Players.DreamingRush.Character.RightLowerLeg.MeshId = "902942093"
+game.Players.DreamingRush.Character.RightLowerLeg.Transparency = "1"
+game.Players.DreamingRush.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+game.Players.DreamingRush.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+game.Players.DreamingRush.Character.RightFoot.MeshId = "902942089"
+game.Players.DreamingRush.Character.RightFoot.Transparency = "1"
+end
 end
 end
 end)
