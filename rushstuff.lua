@@ -4,6 +4,7 @@ local refreshSSHF = "res" -- refreshes sshf autoload if flung
 local autoload = "headless" -- headless | sshf
 local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | RushsRevival
 
+local fit4 = "1"
 
 
 
@@ -20,6 +21,7 @@ local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | Rus
 
 
 
+if fit4 = "1" then
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
@@ -155,5 +157,6 @@ game.Players.DreamingRush.Character.RightUpperLeg.MeshId = "http://www.roblox.co
 game.Players.DreamingRush.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
 game.Players.DreamingRush.Character.RightFoot.MeshId = "902942089"
 game.Players.DreamingRush.Character.RightFoot.Transparency = "1"
+end
 end
 end
