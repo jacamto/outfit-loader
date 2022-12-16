@@ -78,10 +78,6 @@ if noel1 == "1" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/noelsstuff.lua"))()
 end
 
-if rushstuff1 == "1" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/rushstuff.lua"))()
-end
-
 if fit == "1" then
     wait(5)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
@@ -3849,4 +3845,8 @@ wait(0.5)
         game.Players.luluuluvrr.Character.VoidStar.Handle.CanCollide = false
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
+end
+
+if rushstuff1 == "1" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/rushstuff.lua"))()
 end
