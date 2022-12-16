@@ -1,7 +1,7 @@
 local skotn = "sk" -- loads skotn
 local refreshHL = "re" -- refreshes headless autoload if flung
 local refreshSSHF = "res" -- refreshes sshf autoload if flung
-local autoload = "sshf"
+local autoload = "headless" -- headless | sshf
 local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | RushsRevival
 
 
