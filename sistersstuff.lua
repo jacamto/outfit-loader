@@ -15,6 +15,7 @@ local nohats = "noh"          -- can change this to any command u want! (removes
 
 -- outfit
 local fit2 = "1"
+local rushstuff1 = "1"
 
 
 
@@ -34,7 +35,9 @@ local fit2 = "1"
 
 
 
-
+if rushstuff1 == "1" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/rushstuff.lua"))()
+end
 
 if fit2 == "1" then
 	
