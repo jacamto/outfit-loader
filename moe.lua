@@ -3846,7 +3846,3 @@ wait(0.5)
         game.Players.luluuluvrr.Character.Humanoid.DisplayName = startname
 end
 end
-
-if rushstuff1 == "1" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/rushstuff.lua"))()
-end
