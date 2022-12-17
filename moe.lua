@@ -34,7 +34,6 @@ local name = "moe"         -- orestias | moe | farzad | kittysp1t
 
 local sister2 = "1"
 local noel1 = "1"
-local rushstuff1 = "1"
 local fit = "1"
 local loader = "0"
 local startname = name
