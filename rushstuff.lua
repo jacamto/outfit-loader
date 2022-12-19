@@ -100,7 +100,7 @@ EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "DreamingRush" then
 if messageObj.Message == sshf then
 game.Players.DreamingRush.Character.Humanoid.DisplayName = name
-game.Players.DreamingRush.Character.Head.face.Texture = "rhxassetid://494290547"
+game.Players.DreamingRush.Character.Head.face.Texture = "rbxassetid://494290547"
 game.Players.DreamingRush.Character.RightLowerLeg.MeshId = "902942093"
 game.Players.DreamingRush.Character.RightLowerLeg.Transparency = "1"
 game.Players.DreamingRush.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
