@@ -4,7 +4,7 @@
 -- config stuff
 local skotn = "sk" -- loads skotn
 local sshf = "sf" -- loads sshf
-local korbloxhl = "kbl" -- loads sshf
+local korbloxhl = "kbl" -- loads korblox + headless
 local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | RushsRevival
 
 local fit4 = "1"
