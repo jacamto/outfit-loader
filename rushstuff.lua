@@ -1,8 +1,10 @@
+-- v.0.0.0
+-- ly bro
+
+-- config stuff
 local skotn = "sk" -- loads skotn
 local sshf = "sf" -- loads sshf
-local refreshHL = "re" -- refreshes headless autoload if flung
-local refreshSSHF = "res" -- refreshes sshf autoload if flung
-local autoload = "none" -- headless | sshf
+local korbloxhl = "kbl" -- loads sshf
 local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | RushsRevival
 
 local fit4 = "1"
@@ -101,14 +103,12 @@ game.Players.DreamingRush.Character.Head.face.Texture = "rhxassetid://494290547"
 end
 end
 end)
-
+	
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "DreamingRush" then
-if messageObj.Message == refreshHL then
-while true do
-    wait(1)
+if messageObj.Message == korbloxhl then
 game.Players.DreamingRush.Character.Humanoid.DisplayName = name
 game.Players.DreamingRush.Character.Head.MeshId = "rbxassetid://6686307858"
 game.Players.DreamingRush.Character.RightLowerLeg.MeshId = "902942093"
@@ -119,55 +119,5 @@ game.Players.DreamingRush.Character.RightFoot.MeshId = "902942089"
 game.Players.DreamingRush.Character.RightFoot.Transparency = "1"
 end
 end
-end
 end)
-
-local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
-
-EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
-if messageObj.FromSpeaker == "DreamingRush" then
-if messageObj.Message == refreshSSHF then
-while true do
-    wait(1)
-game.Players.DreamingRush.Character.Humanoid.DisplayName = name
-game.Players.DreamingRush.Character.Head.face.Texture = "rbxassetid://494290547"
-game.Players.DreamingRush.Character.RightLowerLeg.MeshId = "902942093"
-game.Players.DreamingRush.Character.RightLowerLeg.Transparency = "1"
-game.Players.DreamingRush.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
-game.Players.DreamingRush.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
-game.Players.DreamingRush.Character.RightFoot.MeshId = "902942089"
-game.Players.DreamingRush.Character.RightFoot.Transparency = "1"
-end
-end
-end
-end)
-
-
-if autoload == "headless" then
-while true do
-    wait(1)
-game.Players.DreamingRush.Character.Humanoid.DisplayName = name
-game.Players.DreamingRush.Character.Head.MeshId = "rbxassetid://6686307858"
-game.Players.DreamingRush.Character.RightLowerLeg.MeshId = "902942093"
-game.Players.DreamingRush.Character.RightLowerLeg.Transparency = "1"
-game.Players.DreamingRush.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
-game.Players.DreamingRush.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
-game.Players.DreamingRush.Character.RightFoot.MeshId = "902942089"
-game.Players.DreamingRush.Character.RightFoot.Transparency = "1"
-end
-end
-
-if autoload == "sshf" then
-while true do
-    wait(1)
-game.Players.DreamingRush.Character.Humanoid.DisplayName = name
-game.Players.DreamingRush.Character.Head.face.Texture = "rbxassetid://494290547"
-game.Players.DreamingRush.Character.RightLowerLeg.MeshId = "902942093"
-game.Players.DreamingRush.Character.RightLowerLeg.Transparency = "1"
-game.Players.DreamingRush.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
-game.Players.DreamingRush.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
-game.Players.DreamingRush.Character.RightFoot.MeshId = "902942089"
-game.Players.DreamingRush.Character.RightFoot.Transparency = "1"
-end
-end
 end
