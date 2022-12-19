@@ -1,4 +1,4 @@
--- v.0.4.6 (everybody knows that im a good girl officer ❤️)
+-- v.0.4.7 (everybody knows that im a good girl officer ❤️)
 wait(2)
 
 	-- 1 = fiery horns
