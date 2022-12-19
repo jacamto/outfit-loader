@@ -1,5 +1,5 @@
--- v.0.0.1
--- ly bro
+-- v.0.0.11
+-- ly bro <3
 
 -- config stuff
 local skotn = "sk" -- loads skotn
