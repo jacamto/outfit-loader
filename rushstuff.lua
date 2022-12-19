@@ -1,7 +1,8 @@
 local skotn = "sk" -- loads skotn
+local sshf = "sf" -- loads sshf
 local refreshHL = "re" -- refreshes headless autoload if flung
 local refreshSSHF = "res" -- refreshes sshf autoload if flung
-local autoload = "headless" -- headless | sshf
+local autoload = "none" -- headless | sshf
 local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | RushsRevival
 
 local fit4 = "1"
@@ -87,6 +88,16 @@ if messageObj.Message == skotn then
         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
         k(game.Players.DreamingRush.Character, _)
         game.Players.DreamingRush.Character.KingOfTheNight_Silver.Handle.CanCollide = false
+end
+end
+end)
+	
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "DreamingRush" then
+if messageObj.Message == sshf then
+game.Players.DreamingRush.Character.Head.face.Texture = "rhxassetid://494290547"
 end
 end
 end)
