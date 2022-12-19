@@ -24,7 +24,7 @@ local fit4 = "1"
 
 
 
-if fit4 = "1" then
+if fit4 == "1" then
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
