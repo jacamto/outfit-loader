@@ -3,7 +3,7 @@
 
 -- config stuff
 local skotn = "sk" -- loads skotn
-local sshf = "sf" -- loads sshf
+local sshf = "sf" -- loads sshf and korblox
 local korbloxhl = "kbl" -- loads korblox + headless
 local name = "[⭐]DreamingRush" -- [⭐]DreamingRush | [🌟]DreamingRush | RushsRevival
 
@@ -99,7 +99,14 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "DreamingRush" then
 if messageObj.Message == sshf then
+game.Players.DreamingRush.Character.Humanoid.DisplayName = name
 game.Players.DreamingRush.Character.Head.face.Texture = "rhxassetid://494290547"
+game.Players.DreamingRush.Character.RightLowerLeg.MeshId = "902942093"
+game.Players.DreamingRush.Character.RightLowerLeg.Transparency = "1"
+game.Players.DreamingRush.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+game.Players.DreamingRush.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+game.Players.DreamingRush.Character.RightFoot.MeshId = "902942089"
+game.Players.DreamingRush.Character.RightFoot.Transparency = "1"
 end
 end
 end)
