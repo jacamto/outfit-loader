@@ -1,4 +1,4 @@
--- v.0.0.5
+-- v.0.0.6
 -- happy to work on this kinda stuff 😊😊
 
 local fit3 = "1"
@@ -76,4 +76,26 @@ end
 end
 end
 end)
+end
+
+if game.Players.LocalPlayer.UserId == 1522308489 then
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "HAII", 
+ Text = "                                                   Script Loaded", Duration = 10
+})
+
+wait(5)
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "YOUR CMDS",
+ Text = 
+ "                               m = popstar idle animation" .. 
+ "                                                                   hl = headless for R15" .. 
+ "          and             hll = headless for R6",
+ Duration = 20
+})
 end
