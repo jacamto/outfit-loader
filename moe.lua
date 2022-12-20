@@ -3544,7 +3544,7 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "luluuluvrr" then
-if messageObj.Message == "anim" then
+if messageObj.Message == "/e anim" then
 game.Players.luluuluvrr.Character.Humanoid.Jump = true
 wait(0.15)
 local Anim = Instance.new("Animation")
