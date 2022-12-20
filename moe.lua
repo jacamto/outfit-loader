@@ -1,5 +1,5 @@
--- v.0.5.6 (everybody knows that im a good girl officer ❤️)
-wait(8.5)
+-- v.0.5.5 (everybody knows that im a good girl officer ❤️)
+wait(10)
 local notification = true
 if notification == true then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
@@ -12,7 +12,7 @@ notifLib:CreateDefaultNotif({
 end
 
 
-wait(2)
+wait(3)
 
 	-- 1 = fiery horns
 	-- 2 = void and cwhp
@@ -82,7 +82,7 @@ local horns = b
 
 
 if sister2 == "1" then
-wait(5)
+wait(8.5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/sistersstuff.lua"))()
 end
 
@@ -3604,6 +3604,18 @@ notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "LOVE U RUSH!! - Moe", 
  Text = "                                                   Script Loaded", Duration = 10
+})
+
+wait(5)
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "YOUR CMDS",
+ Text = 
+ "                                               sk   gives u skotn!" .. 
+ "                                                                   sf   gives u sshf :3" .. 
+ "    and     kbl   gives u korblox + headless",
+ Duration = 15
 })
 end
 end
