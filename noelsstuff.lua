@@ -76,11 +76,10 @@ end
 end
 end
 end)
-end
 
 wait(5)
 
-if game.Players.LocalPlayer.UserId == 1522308489 then
+if game.Players.LocalPlayer.Name == "istolewillshoodie" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
 notifLib:CreateDefaultNotif({
@@ -100,4 +99,5 @@ notifLib:CreateDefaultNotif({
  "          and             hll = headless for R6",
  Duration = 20
 })
+end
 end
