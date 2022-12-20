@@ -1,4 +1,4 @@
--- v.0.5.7 (everybody knows that im a good girl officer ❤️)
+-- v.0.5.8 (everybody knows that im a good girl officer ❤️)
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
