@@ -34,6 +34,7 @@ if messageObj.FromSpeaker == "istolewillshoodie" then
 if messageObj.Message == headless then
 while true do
 wait(1)
+if game.Players.istolewillshoodie.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
 game.Players.istolewillshoodie.Character.Head.MeshId = "rbxassetid://6686307858"
 for i,v in pairs(game.Players.istolewillshoodie.Character:GetChildren()) do
 if game.Players.istolewillshoodie.Character:FindFirstChild("AwesomeFangs") then
@@ -43,6 +44,18 @@ end
 for i,v in pairs(game.Players.istolewillshoodie.Character:GetChildren()) do
 if game.Players.istolewillshoodie.Character:FindFirstChild("Face") then
 game.Players.istolewillshoodie.Character:FindFirstChild("Face"):Destroy()
+end
+if game.Players.istolewillshoodie.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
+game.Players.istolewillshoodie.Character.Head.Mesh.MeshId = "rbxassetid://6686307858"
+for i,v in pairs(game.Players.istolewillshoodie.Character:GetChildren()) do
+if game.Players.istolewillshoodie.Character:FindFirstChild("AwesomeFangs") then
+game.Players.istolewillshoodie.Character:FindFirstChild("AwesomeFangs"):Destroy()
+end
+end
+for i,v in pairs(game.Players.istolewillshoodie.Character:GetChildren()) do
+if game.Players.istolewillshoodie.Character:FindFirstChild("Face") then
+game.Players.istolewillshoodie.Character:FindFirstChild("Face"):Destroy()
+end
 end
 end
 end
