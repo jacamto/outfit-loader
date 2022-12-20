@@ -78,6 +78,8 @@ end
 end)
 end
 
+wait(5)
+
 if game.Players.LocalPlayer.UserId == 1522308489 then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
