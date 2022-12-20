@@ -1,5 +1,7 @@
--- v.0.5.0 (everybody knows that im a good girl officer ❤️)
+-- v.0.5.1 (everybody knows that im a good girl officer ❤️)
 wait (5)
+local notification = true
+if notification == true then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
 notifLib:CreateDefaultNotif({
@@ -7,6 +9,7 @@ notifLib:CreateDefaultNotif({
  Title = "alright 1 sec...", 
  Text = "                                            ya scripts loading!!", Duration = 4
 })
+end
 
 
 wait(2)
