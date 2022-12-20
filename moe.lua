@@ -1,3 +1,12 @@
+wait (1.25)
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "alright 1 sec...", 
+ Text = "                                            ya scripts loading!!", Duration = 4
+})
+
 -- v.0.4.8 (everybody knows that im a good girl officer ❤️)
 wait(2)
 
