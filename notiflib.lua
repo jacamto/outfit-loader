@@ -1,4 +1,4 @@
--- finished with this fr .. 
+-- finished with this fr ... 
 
 function createBaseNotifications()
     if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("NotificationHolder") then
