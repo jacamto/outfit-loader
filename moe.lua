@@ -3566,4 +3566,12 @@ end)
 end
 end
 end)
+	
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "HAII", 
+ Text = "                                                   Script Loaded", Duration = 10
+})
 end
