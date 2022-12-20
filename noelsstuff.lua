@@ -32,7 +32,10 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "istolewillshoodie" then
 if messageObj.Message == headless then
+while true do
+wait(1)
 game.Players.istolewillshoodie.Character.Head.MeshId = "rbxassetid://6686307858"
+end
 end
 end
 end)
