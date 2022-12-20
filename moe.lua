@@ -1,4 +1,4 @@
--- v.0.4.8 (everybody knows that im a good girl officer ❤️)
+-- v.0.4.9 (everybody knows that im a good girl officer ❤️)
 wait (1.25)
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
