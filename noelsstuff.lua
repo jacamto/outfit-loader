@@ -82,7 +82,7 @@ local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/teku
 
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
- Title = "HAII", 
+ Title = "HAII <3", 
  Text = "                                                   Script Loaded", Duration = 10
 })
 
