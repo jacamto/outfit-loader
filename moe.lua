@@ -1,4 +1,4 @@
--- v.0.5.2 (everybody knows that im a good girl officer ❤️)
+-- v.0.5.3 (everybody knows that im a good girl officer ❤️)
 wait (5)
 local notification = true
 if notification == true then
@@ -3584,7 +3584,7 @@ local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/teku
 
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
- Title = "HAII", 
+ Title = "hey me..", 
  Text = "                                                   Script Loaded", Duration = 10
 })
 
@@ -3593,7 +3593,7 @@ local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/teku
 
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
- Title = "HAII", 
+ Title = "LY SIS ❤️", 
  Text = "                                                   Script Loaded", Duration = 10
 })
 		
@@ -3602,7 +3602,7 @@ local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/teku
 
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
- Title = "HAII", 
+ Title = "LY RUSH!! - Moe", 
  Text = "                                                   Script Loaded", Duration = 10
 })
 end
