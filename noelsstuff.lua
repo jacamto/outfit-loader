@@ -3,8 +3,8 @@
 
 local fit3 = "1"
 local princessAnim = "m"
-local headless = "hl"
-
+local headlessR15 = "hl"
+local headlessR6 = "hll"
 
 
 
@@ -31,10 +31,9 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "istolewillshoodie" then
-if messageObj.Message == headless then
+if messageObj.Message == headlessR15 then
 while true do
 wait(1)
-						
 if game.Players.istolewillshoodie.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
 game.Players.istolewillshoodie.Character.Head.MeshId = "rbxassetid://6686307858"
 for i,v in pairs(game.Players.istolewillshoodie.Character:GetChildren()) do
@@ -47,7 +46,19 @@ if game.Players.istolewillshoodie.Character:FindFirstChild("Face") then
 game.Players.istolewillshoodie.Character:FindFirstChild("Face"):Destroy()
 end
 end
+end
+end
+end
+end
+end)
 
+local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
+if messageObj.FromSpeaker == "istolewillshoodie" then
+if messageObj.Message == headlessR6 then
+while true do
+wait(1)
 if game.Players.istolewillshoodie.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
 game.Players.istolewillshoodie.Character.Head.Mesh.MeshId = "rbxassetid://6686307858"
 for i,v in pairs(game.Players.istolewillshoodie.Character:GetChildren()) do
@@ -59,8 +70,6 @@ for i,v in pairs(game.Players.istolewillshoodie.Character:GetChildren()) do
 if game.Players.istolewillshoodie.Character:FindFirstChild("Face") then
 game.Players.istolewillshoodie.Character:FindFirstChild("Face"):Destroy()
 end
-end
-								
 end
 end
 end
