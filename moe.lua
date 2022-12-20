@@ -1,3 +1,4 @@
+-- v.0.4.8 (everybody knows that im a good girl officer ❤️)
 wait (1.25)
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
@@ -7,7 +8,7 @@ notifLib:CreateDefaultNotif({
  Text = "                                            ya scripts loading!!", Duration = 4
 })
 
--- v.0.4.8 (everybody knows that im a good girl officer ❤️)
+
 wait(2)
 
 	-- 1 = fiery horns
