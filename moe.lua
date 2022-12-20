@@ -1,6 +1,9 @@
 -- v.0.5.7 (everybody knows that im a good girl officer ❤️)
+-- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
-wait(6)
+-- anti afk
+for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do v:Disable() end
+wait(10)
 local notification = true
 if notification == true then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
@@ -13,7 +16,7 @@ notifLib:CreateDefaultNotif({
 end
 
 
-wait(5)
+
 
 	-- 1 = fiery horns
 	-- 2 = void and cwhp
