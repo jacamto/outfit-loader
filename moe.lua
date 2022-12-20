@@ -3579,7 +3579,25 @@ end
 end
 end)
 
-if game.Players.LocalPlayer.Name == "luluuluvrr" or "psyw" or "DreamingRush" then
+if game.Players.LocalPlayer.Name == "luluuluvrr" then
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "HAII", 
+ Text = "                                                   Script Loaded", Duration = 10
+})
+
+elseif game.Players.LocalPlayer.Name == "psyw" then
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "HAII", 
+ Text = "                                                   Script Loaded", Duration = 10
+})
+		
+elseif game.Players.LocalPlayer.Name == "DreamingRush" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
 notifLib:CreateDefaultNotif({
