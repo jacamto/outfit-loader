@@ -1,5 +1,6 @@
 -- v.0.5.5 (everybody knows that im a good girl officer ❤️)
 wait()
+wait(3)
 local notification = true
 if notification == true then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
