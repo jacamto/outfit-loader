@@ -1,5 +1,5 @@
 -- v.0.5.4 (everybody knows that im a good girl officer ❤️)
-wait (5)
+wait (10)
 local notification = true
 if notification == true then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
@@ -82,7 +82,7 @@ local horns = b
 
 
 if sister2 == "1" then
-wait(10)
+wait(8.5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/sistersstuff.lua"))()
 end
 
