@@ -1,5 +1,5 @@
 -- v.0.0.8
--- happy to work on this kinda stuff 😊😊
+-- love making scripts ong <3
 
 local fit3 = "1"
 local princessAnim = "m"
