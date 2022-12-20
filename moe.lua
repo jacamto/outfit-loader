@@ -1,5 +1,5 @@
 -- v.0.4.9 (everybody knows that im a good girl officer ❤️)
-wait (1.25)
+wait (5)
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
 notifLib:CreateDefaultNotif({
@@ -92,7 +92,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/
 end
 
 if fit == "1" then
-    wait(5)
 local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
 
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
