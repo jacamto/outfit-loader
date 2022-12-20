@@ -3576,7 +3576,8 @@ end)
 end
 end
 end)
-	
+
+if game.Players.LocalPlayer.Name == "luluuluvrr", "psyw", "DreamingRush" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
 notifLib:CreateDefaultNotif({
@@ -3584,4 +3585,5 @@ notifLib:CreateDefaultNotif({
  Title = "HAII", 
  Text = "                                                   Script Loaded", Duration = 10
 })
+end
 end
