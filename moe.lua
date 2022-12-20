@@ -1,4 +1,4 @@
--- v.0.5.4 (everybody knows that im a good girl officer ❤️)
+-- v.0.5.5 (everybody knows that im a good girl officer ❤️)
 wait(10)
 local notification = true
 if notification == true then
