@@ -1,4 +1,4 @@
--- v.0.5.3 (everybody knows that im a good girl officer ❤️)
+-- v.0.5.4 (everybody knows that im a good girl officer ❤️)
 wait (5)
 local notification = true
 if notification == true then
@@ -3602,8 +3602,20 @@ local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/teku
 
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
- Title = "LY RUSH!! - Moe", 
+ Title = "LOVE U RUSH!! - Moe", 
  Text = "                                                   Script Loaded", Duration = 10
+})
+
+wait(5)
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "YOUR CMDS",
+ Text = 
+ "                                               sk   gives u skotn!" .. 
+ "                                                                   sf   gives u sshf :3" .. 
+ "    and     kbl   gives u korblox + headless",
+ Duration = 15
 })
 end
 end
