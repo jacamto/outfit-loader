@@ -1,4 +1,4 @@
--- v.0.5.9 (ONG???)
+-- v.0.6.0 (ONG???)
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
@@ -3622,4 +3622,9 @@ notifLib:CreateDefaultNotif({
  Duration = 15
 })
 end
+-- for the "xbox" glitch to stop :3
+game:GetService("GuiService").AutoSelectGuiEnabled = false
+game:GetService("GuiService").CoreGuiNavigationEnabled = false
+game:GetService("GuiService").GuiNavigationEnabled = false
+-- np loves
 end
