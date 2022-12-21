@@ -1,4 +1,4 @@
--- v.0.6.2 (ONG???) ;-; okay..
+-- v.0.6.3 (ONG???) ;-; okay..
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
@@ -3601,6 +3601,27 @@ notifLib:CreateDefaultNotif({
  Text = "                                                   Script Loaded", Duration = 10
 })
 		
+elseif game.Players.LocalPlayer.Name == "istolewillshoodie" then
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "HAII !! <3", 
+ Text = "                                                   Script Loaded", Duration = 10
+})
+
+wait(5)
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "YOUR CMDS",
+ Text = 
+ "                               m = popstar idle animation" .. 
+ "                                                                   hl = headless for R15" .. 
+ "          and             hll = headless for R6",
+ Duration = 20
+})
+		
 elseif game.Players.LocalPlayer.Name == "DreamingRush" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
@@ -3621,6 +3642,13 @@ notifLib:CreateDefaultNotif({
  "    and     kbl   gives u korblox + headless",
  Duration = 15
 })
+if game.PlaceId == 6516141723 then  -- doors :)
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "CHECK YOUR CLIPBOARD!!", 
+ Text = "                DOORS SCRIPT DO CTRL V IN A SYNAPSE TAB", Duration = 10
+})		
+end
 end
 -- for the "xbox" glitch to stop :3
 game:GetService("GuiService").AutoSelectGuiEnabled = false
@@ -3630,5 +3658,9 @@ game:GetService("GuiService").GuiNavigationEnabled = false
 if game.PlaceId == 9872472334 then  -- evade!!
 wait(1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/evade/main/moesevade.lua"))()
+end
+if game.PlaceId == 6516141723 then  -- doors :)
+wait(1)
+setclipboard('loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()')
 end
 end
