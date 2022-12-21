@@ -1,4 +1,4 @@
--- v.0.6.4 (ONG???) ;-; okay..
+-- v.0.6.5 (ONG???) ;-; okay..
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
@@ -3591,13 +3591,12 @@ notifLib:CreateDefaultNotif({
  Title = "hey me..", 
  Text = "                                                   Script Loaded", Duration = 10
 })
-if game.PlaceId == 6516141723 then  -- doors :)
+elseif game.PlaceId == 6516141723 then  -- doors :)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
  Text = "                DOORS SCRIPT DO CTRL V IN A SYNAPSE TAB", Duration = 10
 })		
-end
 
 elseif game.Players.LocalPlayer.Name == "psyw" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
@@ -3607,13 +3606,12 @@ notifLib:CreateDefaultNotif({
  Title = "LY SIS ❤️", 
  Text = "                                                   Script Loaded", Duration = 10
 })
-if game.PlaceId == 6516141723 then  -- doors :)
+elseif game.PlaceId == 6516141723 then  -- doors :)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
  Text = "                DOORS SCRIPT DO CTRL V IN A SYNAPSE TAB", Duration = 10
 })		
-end
 		
 elseif game.Players.LocalPlayer.Name == "istolewillshoodie" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
@@ -3635,13 +3633,12 @@ notifLib:CreateDefaultNotif({
  "          and             hll = headless for R6",
  Duration = 20
 })
-if game.PlaceId == 6516141723 then  -- doors :)
+elseif game.PlaceId == 6516141723 then  -- doors :)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
  Text = "                DOORS SCRIPT DO CTRL V IN A SYNAPSE TAB", Duration = 10
 })		
-end
 		
 elseif game.Players.LocalPlayer.Name == "DreamingRush" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
@@ -3663,13 +3660,12 @@ notifLib:CreateDefaultNotif({
  "    and     kbl   gives u korblox + headless",
  Duration = 15
 })
-if game.PlaceId == 6516141723 then  -- doors :)
+elseif game.PlaceId == 6516141723 then  -- doors :)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
  Text = "                DOORS SCRIPT DO CTRL V IN A SYNAPSE TAB", Duration = 10
 })		
-end
 end
 -- for the "xbox" glitch to stop :3
 game:GetService("GuiService").AutoSelectGuiEnabled = false
