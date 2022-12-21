@@ -1,4 +1,4 @@
--- v.0.6.3 (ONG???) ;-; okay..
+-- v.0.6.4 (ONG???) ;-; okay..
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
