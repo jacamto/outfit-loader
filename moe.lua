@@ -1,4 +1,4 @@
--- v.0.6.6 (ONG???) ;-; okay..
+-- v.0.6.8 (ONG???) ;-; okay..
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
@@ -3592,6 +3592,7 @@ notifLib:CreateDefaultNotif({
  Text = "                                                   Script Loaded", Duration = 10
 })
 if game.PlaceId == 6516141723 then  -- doors :)
+wait(1)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
@@ -3608,6 +3609,7 @@ notifLib:CreateDefaultNotif({
  Text = "                                                   Script Loaded", Duration = 10
 })
 if game.PlaceId == 6516141723 then  -- doors :)
+wait(1)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
@@ -3636,6 +3638,7 @@ notifLib:CreateDefaultNotif({
  Duration = 20
 })
 if game.PlaceId == 6516141723 then  -- doors :)
+wait(1)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
@@ -3664,6 +3667,7 @@ notifLib:CreateDefaultNotif({
  Duration = 15
 })
 if game.PlaceId == 6516141723 then  -- doors :)
+wait(1)
 notifLib:CreateDefaultNotif({
  TweenSpeed = 1.2,
  Title = "CHECK YOUR CLIPBOARD!!", 
