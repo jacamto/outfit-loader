@@ -3627,7 +3627,7 @@ game:GetService("GuiService").AutoSelectGuiEnabled = false
 game:GetService("GuiService").CoreGuiNavigationEnabled = false
 game:GetService("GuiService").GuiNavigationEnabled = false
 -- np loves
-if game.PlaceId == 9872472334 then
+if game.PlaceId == 9872472334 then  -- evade!!
 wait(2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/evade/main/tekusevade.lua"))()
 end
