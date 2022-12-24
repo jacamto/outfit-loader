@@ -1,4 +1,4 @@
--- v.0.6.8 (ONG???) ;-; okay..
+-- v.0.6.9 (ONG???) ;-; okay..
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
@@ -3647,6 +3647,35 @@ notifLib:CreateDefaultNotif({
 end		
 		
 elseif game.Players.LocalPlayer.Name == "DreamingRush" then
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "LOVE U RUSH!! - Moe", 
+ Text = "                                                   Script Loaded", Duration = 10
+})
+
+wait(5)
+
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "YOUR CMDS",
+ Text = 
+ "                                               sk   gives u skotn!" .. 
+ "                                                                   sf   gives u sshf :3" .. 
+ "    and     kbl   gives u korblox + headless",
+ Duration = 15
+})
+if game.PlaceId == 6516141723 then  -- doors :)
+wait(1)
+notifLib:CreateDefaultNotif({
+ TweenSpeed = 1.2,
+ Title = "CHECK YOUR CLIPBOARD!!", 
+ Text = "                DOORS SCRIPT DO CTRL V IN A SYNAPSE TAB", Duration = 10
+})
+end
+
+elseif game.Players.LocalPlayer.Name == "vshrxq" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
 notifLib:CreateDefaultNotif({
