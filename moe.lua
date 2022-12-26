@@ -39,7 +39,7 @@ end
 	 wo = winter outfit ❄️☃️,
 	 anim = emote,
 	 rhs = animation changer,
-	 catt = animation changer}]]--
+	 catt = animation changer} ]]--
 
 
 local p = "1744060292"  -- poison horns
