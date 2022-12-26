@@ -1,3 +1,5 @@
+--// done w this sheeeiitt
+
 function createBaseNotifications()
     if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("NotificationHolder") then
         return game:GetService("Players").LocalPlayer.PlayerGui.NotificationHolder
