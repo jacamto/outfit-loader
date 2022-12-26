@@ -1,4 +1,4 @@
--- v.0.6.9 (ONG???) ;-; okay..
+-- v.0.7.1 (ONG???) ;-; okay..
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 -- anti afk
@@ -18,28 +18,28 @@ end
 
 
 
-	-- 1 = fiery horns
-	-- 2 = void and cwhp
-	-- 3 = just void
+    --[[ 1 = fiery horns
+	 2 = void and cwhp
+	 3 = just void
 
-	--{ALL COMMANDS - 
-	-- f = fiery horns,
-	-- b = frozen horns,
-	-- p = poison horns,
-	-- v = void star,
-	-- vc = void+CWHP,
-	-- sk = skotn,
-	-- noh = removes limiteds,
-	-- hats = removes all accessories,
-	-- o1 = layered clothing fit ⬛,
-	-- o2 = layered clothing fit 💗,
-	-- o3 = cute fit 🤍,
-	-- o4 = panda fit cuteee 🐼,
-	-- o5 = guy fit conjuresoul,
-	-- wo = winter outfit ❄️☃️,
-	-- anim = emote,
-	-- rhs = animation changer,
-	-- catt = animation changer}
+	 {ALL COMMANDS - 
+	 f = fiery horns,
+	 b = frozen horns,
+	 p = poison horns,
+	 v = void star,
+	 vc = void+CWHP,
+	 sk = skotn,
+	 noh = removes limiteds,
+	 hats = removes all accessories,
+	 o1 = layered clothing fit ⬛,
+	 o2 = layered clothing fit 💗,
+	 o3 = cute fit 🤍,
+	 o4 = panda fit cuteee 🐼,
+	 o5 = guy fit conjuresoul,
+	 wo = winter outfit ❄️☃️,
+	 anim = emote,
+	 rhs = animation changer,
+	 catt = animation changer}]]--
 
 
 local p = "1744060292"  -- poison horns
