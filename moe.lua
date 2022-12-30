@@ -3853,7 +3853,11 @@ if messageObj.Message == "rv" then
         game.Players["88pov"].Character.BlackKnightHelmet.Handle.CanCollide = false
         game.Players["88pov"].Character.DarkArmor.Handle.CanCollide = false
         game.Players["88pov"].Character.FurCloak.Handle.CanCollide = false
+	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
         game.Players["88pov"].Character.Head.MeshId = "rbxassetid://7430070993"
+	elseif game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
+        game.Players["88pov"].Character.Head.Mesh.MeshId = "rbxassetid://7430070993"
+	end
         Instance.new("Decal", game.Players["88pov"].Character.Head)
         game.Players["88pov"].Character.Head.Decal.Name = "face"
         game.Players["88pov"].Character.Head.face.Texture = "rbxassetid://179693472"
