@@ -3853,6 +3853,8 @@ if messageObj.Message == "rv" then
         game.Players["88pov"].Character.BlackKnightHelmet.Handle.CanCollide = false
         game.Players["88pov"].Character.DarkArmor.Handle.CanCollide = false
         game.Players["88pov"].Character.FurCloak.Handle.CanCollide = false
+	game.Players["88pov"].Character.FurCloak.Handle.Mesh.Offset = Vector3.new(0, -0.55, -0.04)
+	game.Players["88pov"].Character.FurCloak.Handle.Mesh.Scale = Vector3.new(2.5, 3.5, 2.6)
 	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
         game.Players["88pov"].Character.Head.MeshId = "rbxassetid://7430070993"
 	elseif game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
