@@ -443,10 +443,6 @@ wait(1)
         game.Players.LocalPlayer.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
 end
 
-local DesyncTypes = {}
-if Notifyyy == true then
-end
-
 --// hes so hot
 game:GetService("StarterGui"):SetCore("SendNotification", {
 Title = "rvvzs 14in 💓";
