@@ -3989,7 +3989,7 @@ end
 end
 end)
 
-if game.Players.LocalPlayer.Name == "88pov" then
+if game.Players.LocalPlayer.Name == "88pov" or "rvvz" then
 local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tekuuu/outfit-loader/main/notiflib.lua"))()
 
 notifLib:CreateDefaultNotif({
