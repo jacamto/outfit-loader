@@ -434,10 +434,12 @@ wait(1)
         game.Players.LocalPlayer.Character["RightHand"].BrickColor = q
         game.Players.LocalPlayer.Character["LeftHand"].BrickColor = q
         game.Players.LocalPlayer.Character.Humanoid.DisplayName = "RVVZ"
+	if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
         game.Players.LocalPlayer.Character.Humanoid.Jump = true
         wait(0.1)
         game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "rbxassetid://1149612882"
         game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "rbxassetid://1150842221"
+	end
         game.Players.LocalPlayer.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
 end
 end)
