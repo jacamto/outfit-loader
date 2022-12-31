@@ -416,6 +416,7 @@ Duration = 10
                         game.Players.LocalPlayer.Character["LeftHand"].BrickColor = q
                         game.Players.LocalPlayer.Character.Humanoid.DisplayName = "RVVZ"
                     if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = "50"
                         game.Players.LocalPlayer.Character.Humanoid.Jump = true
                         wait(0.1)
                         game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "rbxassetid://1149612882"
