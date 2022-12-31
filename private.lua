@@ -1,4 +1,4 @@
---// v.0.0.6
+--// v.0.0.7
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 
@@ -435,7 +435,7 @@ Icon = "rbxassetid://1407578497&w=180&h=180 true";
 Duration = 15
 })
 if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
-function l(a, _)
+			function l(a, _)
                             local b = Instance.new("Weld")
                             b.Part0 = a.Parent
                             b.Part1 = _.Parent
