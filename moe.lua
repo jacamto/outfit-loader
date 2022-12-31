@@ -3561,6 +3561,60 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "88pov" then
 if messageObj.Message == "rv" then
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+ 
+local function rm()
+    for i,v in pairs(Character:GetDescendants()) do
+        if v:IsA("BasePart") then
+            if v.Name ~= "Head" then
+                for i,cav in pairs(v:GetDescendants()) do
+                    if cav:IsA("Attachment") then
+                        if cav:FindFirstChild("OriginalPosition") then
+                            cav.OriginalPosition:Destroy()
+                        end
+                    end
+                end
+                v:FindFirstChild("OriginalSize"):Destroy()
+                if v:FindFirstChild("AvatarPartScaleType") then
+                    v:FindFirstChild("AvatarPartScaleType"):Destroy()
+                end
+            end
+        end
+    end
+end
+ 
+rm()
+ 
+wait(0.5)
+ 
+Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+ 
+wait(0.5)
+ 
+rm()
+ 
+wait(0.5)
+ 
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+ 
+wait(0.5)
+ 
+rm()
+ 
+wait(0.5)
+ 
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+ 
+wait(0.5)
+ 
+rm()
+ 
+wait(0.5)
+
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
     for i,v in pairs(game.Players["88pov"].Character.Head:GetChildren()) do
         if v:IsA("Weld") then
         v:Destroy()
@@ -3849,14 +3903,33 @@ if messageObj.Message == "rv" then
         game.Players["88pov"].Character.Shirt.ShirtTemplate = "rbxassetid://1061769228"
         game.Players["88pov"].Character.Pants.PantsTemplate = "rbxassetid://160640499"
         game.Players["88pov"].Character.VoidStar.Handle.CanCollide = false
+	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+	game.Players["88pov"].Character.VoidStar.Handle.Mesh.Offset = Vector3.new(0, 0.025, 0)
+	game.Players["88pov"].Character.VoidStar.Handle.Mesh.Scale = Vector3.new(0.8, 0.8, 0.8)
+	end
         game.Players["88pov"].Character.Headphones.Handle.CanCollide = false
+	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+	game.Players["88pov"].Character.Headphones.Handle.Mesh.Offset = Vector3.new(0, 0, 0)
+	game.Players["88pov"].Character.Headphones.Handle.Mesh.Scale = Vector3.new(1.2, 1.2, 1.2)
+	end
         game.Players["88pov"].Character.BlackKnightHelmet.Handle.CanCollide = false
+	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+	game.Players["88pov"].Character.BlackKnightHelmet.Handle.Mesh.Offset = Vector3.new(0, 0, 0)
+	game.Players["88pov"].Character.BlackKnightHelmet.Handle.Mesh.Scale = Vector3.new(1.2, 1.2, 1.2)
+	end
         game.Players["88pov"].Character.DarkArmor.Handle.CanCollide = false
+	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+	game.Players["88pov"].Character.DarkArmor.Handle.Mesh.Offset = Vector3.new(0, -0.16, -0.06)
+	game.Players["88pov"].Character.DarkArmor.Handle.Mesh.Scale = Vector3.new(1.2, 1.2, 1.45)
+	end
         game.Players["88pov"].Character.FurCloak.Handle.CanCollide = false
-	game.Players["88pov"].Character.FurCloak.Handle.Mesh.Offset = Vector3.new(0, -0.55, -0.04)
-	game.Players["88pov"].Character.FurCloak.Handle.Mesh.Scale = Vector3.new(2.5, 3.5, 2.6)
+	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+	game.Players["88pov"].Character.FurCloak.Handle.Mesh.Offset = Vector3.new(0, -0.44, 0)
+	game.Players["88pov"].Character.FurCloak.Handle.Mesh.Scale = Vector3.new(2.5, 3.6, 3.5)
+	end
 	if game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
         game.Players["88pov"].Character.Head.MeshId = "rbxassetid://7430070993"
+	game.Players["88pov"].Character.Head.Size = Vector3.new(1.2, 1.2, 1.2)
 	elseif game.Players["88pov"].Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
         game.Players["88pov"].Character.Head.Mesh.MeshId = "rbxassetid://7430070993"
 	end
