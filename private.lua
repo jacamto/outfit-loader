@@ -4,6 +4,7 @@ repeat task.wait() until game:IsLoaded();
 
 game:GetService("Players").LocalPlayer.Name = "RVVZ"
 game:GetService("Players").LocalPlayer.DisplayName = "RVVZ"
+game:GetService("Players").LocalPlayer.UserId = "29761878"
 
 checkcaller = checkcaller
 newcclosure = newcclosure
@@ -437,5 +438,6 @@ game:GetService("Players").LocalPlayer.Name = "88pov"
 
 if game:GetService("Players").LocalPlayer.Name == "88pov" then
 game:GetService("Players").LocalPlayer.DisplayName = "RVVZ"
+game:GetService("Players").LocalPlayer.UserId = "2752075667"
 end
 end
