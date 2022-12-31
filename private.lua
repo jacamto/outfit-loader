@@ -442,7 +442,6 @@ wait(1)
 	end
         game.Players.LocalPlayer.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
 end
-end)
 
 local DesyncTypes = {}
 if Notifyyy == true then
