@@ -36,9 +36,8 @@ end)
 end
 end)
             
---// rvvz On and Off
+--// rvvz On and Off // rvvzs dicks so big
 local DesyncTypes = {}
-local rvvzsdick = game:GetService("RunService").heartbeat:Connect(function()
 if Notifyyy == true then
 if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
 local LocalPlayer = game:GetService("Players").LocalPlayer
@@ -446,7 +445,6 @@ end)
 
 local DesyncTypes = {}
 if Notifyyy == true then
-rvvzsdick:Disconnect()
 end
 
 --// hes so hot
