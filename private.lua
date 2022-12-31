@@ -16,7 +16,7 @@ game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(rvvzs
 if rvvzshugedick == string.lower(getgenv().RVVZToggleKey) then
 game:GetService("StarterGui"):SetCore("SendNotification", {
 Title = "Pressed";
-Text = "RVV is now turned on 💖🍆";
+Text = "RVV is hard rn (14in) 💖🍆";
 Icon = "rbxassetid://1407578497&w=180&h=180 true";
 Duration = 10
 })
