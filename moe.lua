@@ -3561,9 +3561,9 @@ local EventFolder = game:GetService("ReplicatedStorage").DefaultChatSystemChatEv
 EventFolder.OnMessageDoneFiltering.OnClientEvent:Connect(function(messageObj)
 if messageObj.FromSpeaker == "88pov" then
 if messageObj.Message == "rv" then
-local LocalPlayer = game:GetService("Players").LocalPlayer
-local Character = LocalPlayer.Character
-local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+local LocalPlayer = game:GetService("Players")["88pov"]
+local Character = game:GetService("Players")["88pov"].Character
+local Humanoid = game:GetService("Players")["88pov"].Character:FindFirstChildOfClass("Humanoid")
  
 local function rm()
     for i,v in pairs(Character:GetDescendants()) do
