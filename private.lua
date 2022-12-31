@@ -2,8 +2,6 @@
 repeat task.wait() until game:IsLoaded();
 
 game:GetService("Players").LocalPlayer.Name = "RVVZ"
-
-if game:GetService("Players").LocalPlayer.Name == "RVVZ" then
 game:GetService("Players").LocalPlayer.DisplayName = "RVVZ"
 
 checkcaller = checkcaller
