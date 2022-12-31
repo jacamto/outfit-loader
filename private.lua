@@ -424,7 +424,9 @@ Duration = 10
                     end
                         game.Players.LocalPlayer.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
 	    end
-	end
+end
+end
+end)
 	 
 	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
 
