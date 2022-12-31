@@ -10,6 +10,7 @@ checkcaller = checkcaller
 newcclosure = newcclosure
 hookmetamethod = hookmetamethod
 
+wait(5)
 
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
@@ -363,8 +364,6 @@ Duration = 10
                         local _ = 215748322
                         local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
                         k(game.Players.LocalPlayer.Character, _)
-                        game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1061769228"
-                        game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://160640499"
                         game.Players.LocalPlayer.Character.VoidStar.Handle.CanCollide = false
                     if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
                     game.Players.LocalPlayer.Character.VoidStar.Handle.Mesh.Offset = Vector3.new(0, 0.025, 0)
