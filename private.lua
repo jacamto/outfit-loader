@@ -1,7 +1,15 @@
+-- wait till game is loaded
+repeat task.wait() until game:IsLoaded();
 
 checkcaller = checkcaller
 newcclosure = newcclosure
 hookmetamethod = hookmetamethod
+
+game:GetService("Players").LocalPlayer.Name = "RVVZ"
+
+if game:GetService("Players").LocalPlayer.Name == "RVVZ" then
+game:GetService("Players").LocalPlayer.DisplayName = "RVVZ"
+end
 
 getgenv().RVVZToggleKey = "["
 local Notifyyy = false
