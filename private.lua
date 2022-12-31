@@ -426,6 +426,205 @@ Duration = 10
 end
 end)
 
+mouse.KeyDown:connect(function(key)
+    if key == "]" then
+game:GetService("StarterGui"):SetCore("SendNotification", {
+Title = "added his realism";
+Text = "fuuuccckkkk (14in) 💖🍆";
+Icon = "rbxassetid://1407578497&w=180&h=180 true";
+Duration = 15
+})
+if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+function l(a, _)
+                            local b = Instance.new("Weld")
+                            b.Part0 = a.Parent
+                            b.Part1 = _.Parent
+                            b.C0 = a.CFrame
+                            b.C1 = _.CFrame
+                            b.Parent = a.Parent
+                            return b
+                        end
+                        local function _(_, a, b, d, c, e)
+                            local f = Instance.new("Weld")
+                            f.Name = _
+                            f.Part0 = b
+                            f.Part1 = d
+                            f.C0 = c
+                            f.C1 = e
+                            f.Parent = a
+                            return f
+                        end
+                        local function a(_, b)
+                            for _, _ in pairs(_:GetChildren()) do
+                                if _:IsA("Attachment") and _.Name == b then
+                                    return _
+                                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                                    local _ = a(_, b)
+                                    if _ then
+                                        return _
+                                    end
+                                end
+                            end
+                        end
+                        function k(e, c)
+                            c.Parent = e
+                            local d = c:FindFirstChild("Handle")
+                            if d then
+                                local b = d:FindFirstChildOfClass("Attachment")
+                                if b then
+                                    local _ = a(e, b.Name)
+                                    if _ then
+                                        l(_, b)
+                                    end
+                                else
+                                    local e = e:FindFirstChild("Head")
+                                    if e then
+                                        local b = CFrame.new(0, 0, 0)
+                                        local a = c.AttachmentPoint
+                                        _("HeadWeld", e, e, d, b, a)
+                                    end
+                                end
+                            end
+                        end
+                        local _ = 11563571639
+                        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+                        k(game.Players.LocalPlayer.Character, _)
+                        game.Players.LocalPlayer.Character["Red Ball"].Name = "Pec2"
+                        function l(a, _)
+                            local b = Instance.new("Weld")
+                            b.Part0 = a.Parent
+                            b.Part1 = _.Parent
+                            b.C0 = a.CFrame
+                            b.C1 = _.CFrame
+                            b.Parent = a.Parent
+                            return b
+                        end
+                        local function _(_, a, b, d, c, e)
+                            local f = Instance.new("Weld")
+                            f.Name = _
+                            f.Part0 = b
+                            f.Part1 = d
+                            f.C0 = c
+                            f.C1 = e
+                            f.Parent = a
+                            return f
+                        end
+                        local function a(_, b)
+                            for _, _ in pairs(_:GetChildren()) do
+                                if _:IsA("Attachment") and _.Name == b then
+                                    return _
+                                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                                    local _ = a(_, b)
+                                    if _ then
+                                        return _
+                                    end
+                                end
+                            end
+                        end
+                        function k(e, c)
+                            c.Parent = e
+                            local d = c:FindFirstChild("Handle")
+                            if d then
+                                local b = d:FindFirstChildOfClass("Attachment")
+                                if b then
+                                    local _ = a(e, b.Name)
+                                    if _ then
+                                        l(_, b)
+                                    end
+                                else
+                                    local e = e:FindFirstChild("Head")
+                                    if e then
+                                        local b = CFrame.new(0, 0, 0)
+                                        local a = c.AttachmentPoint
+                                        _("HeadWeld", e, e, d, b, a)
+                                    end
+                                end
+                            end
+                        end
+                        local _ = 11563571639
+                        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+                        k(game.Players.LocalPlayer.Character, _)
+                        game.Players.LocalPlayer.Character["Red Ball"].Name = "Pec1"
+                        game.Players.LocalPlayer.Character.Pec1.Handle.CanCollide = false
+                        game.Players.LocalPlayer.Character.Pec1.Handle.BrickColor = BrickColor.new("Really black")
+                        game.Players.LocalPlayer.Character.Pec1.Handle.Material = ("Mud")
+                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.TextureId = "rbxassetid://0"
+                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Scale = Vector3.new(1.5, 1.6, 1.7)
+                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Offset = Vector3.new(-1, 2, -0.2)
+                        game.Players.LocalPlayer.Character.Pec2.Handle.CanCollide = false
+                        game.Players.LocalPlayer.Character.Pec2.Handle.BrickColor = BrickColor.new("Really black")
+                        game.Players.LocalPlayer.Character.Pec2.Handle.Material = ("Mud")
+                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.TextureId = "rbxassetid://0"
+                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Scale = Vector3.new(1.5, 1.6, 1.7)
+                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Offset = Vector3.new(-2.2, 2, -0.2)
+                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.MeshType = ("Sphere")
+                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.MeshType = ("Sphere")
+			function l(a, _)
+                            local b = Instance.new("Weld")
+                            b.Part0 = a.Parent
+                            b.Part1 = _.Parent
+                            b.C0 = a.CFrame
+                            b.C1 = _.CFrame
+                            b.Parent = a.Parent
+                            return b
+                        end
+                        local function _(_, a, b, d, c, e)
+                            local f = Instance.new("Weld")
+                            f.Name = _
+                            f.Part0 = b
+                            f.Part1 = d
+                            f.C0 = c
+                            f.C1 = e
+                            f.Parent = a
+                            return f
+                        end
+                        local function a(_, b)
+                            for _, _ in pairs(_:GetChildren()) do
+                                if _:IsA("Attachment") and _.Name == b then
+                                    return _
+                                elseif not _:IsA("Accoutrement") and not _:IsA("Tool") then
+                                    local _ = a(_, b)
+                                    if _ then
+                                        return _
+                                    end
+                                end
+                            end
+                        end
+                        function k(e, c)
+                            c.Parent = e
+                            local d = c:FindFirstChild("Handle")
+                            if d then
+                                local b = d:FindFirstChildOfClass("Attachment")
+                                if b then
+                                    local _ = a(e, b.Name)
+                                    if _ then
+                                        l(_, b)
+                                    end
+                                else
+                                    local e = e:FindFirstChild("Head")
+                                    if e then
+                                        local b = CFrame.new(0, 0, 0)
+                                        local a = c.AttachmentPoint
+                                        _("HeadWeld", e, e, d, b, a)
+                                    end
+                                end
+                            end
+                        end
+                        local _ = 11615169260
+                        local _ = game:GetObjects("rbxassetid://" .. tostring(_))[1]
+                        k(game.Players.LocalPlayer.Character, _)
+                        game.Players.LocalPlayer.Character["German Soccerballl"].Name = "Bulge"
+                        game.Players.LocalPlayer.Character.Bulge.Handle.CanCollide = false
+                        game.Players.LocalPlayer.Character.Bulge.Handle.BrickColor = BrickColor.new("Really black")
+                        game.Players.LocalPlayer.Character.Bulge.Handle.Material = ("Mud")
+                        game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.TextureId = "rbxassetid://0"
+                        game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.Scale = Vector3.new(1.25, 1.3, 1.3)
+                        game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.Offset  = Vector3.new(-0.8, 0.95, 1.7)
+                        game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.MeshType = ("Sphere")
+end
+end
+end)
+
 --// hes so hot
 game:GetService("StarterGui"):SetCore("SendNotification", {
 Title = "rvvzs 14in 💓";
