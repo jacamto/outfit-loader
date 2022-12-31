@@ -425,8 +425,6 @@ Duration = 10
 end
 end
 end)
-	 
-	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
 
 --// hes so hot
 game:GetService("StarterGui"):SetCore("SendNotification", {
