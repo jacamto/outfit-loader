@@ -41,9 +41,9 @@ local DesyncTypes = {}
 local rvvzsdick = game:GetService("RunService").heartbeat:Connect(function()
 if Notifyyy == true then
 if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
-local LocalPlayer = game:GetService("Players")["88pov"]
-local Character = game:GetService("Players")["88pov"].Character
-local Humanoid = game:GetService("Players")["88pov"].Character:FindFirstChildOfClass("Humanoid")
+local LocalPlayer = game:GetService("Players").RVVZ
+local Character = game:GetService("Players").RVVZ.Character
+local Humanoid = game:GetService("Players").RVVZ.Character:FindFirstChildOfClass("Humanoid")
  
 local function rm()
     for i,v in pairs(Character:GetDescendants()) do
