@@ -10,11 +10,12 @@ checkcaller = checkcaller
 newcclosure = newcclosure
 hookmetamethod = hookmetamethod
 
-getgenv().RVVZToggleKey = "["
 
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
 
-game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(rvvzshugedick)
-if rvvzshugedick == string.lower(getgenv().RVVZToggleKey) then
+mouse.KeyDown:connect(function(key)
+    if key == "[" then
 game:GetService("StarterGui"):SetCore("SendNotification", {
 Title = "Pressed";
 Text = "RVV is hard rn (14in) 💖🍆";
