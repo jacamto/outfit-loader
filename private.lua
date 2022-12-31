@@ -546,13 +546,13 @@ if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R
                         game.Players.LocalPlayer.Character["Red Ball"].Name = "Pec1"
                         game.Players.LocalPlayer.Character.Pec1.Handle.CanCollide = false
                         game.Players.LocalPlayer.Character.Pec1.Handle.BrickColor = BrickColor.new("Really black")
-                        game.Players.LocalPlayer.Character.Pec1.Handle.Material = ("Plastic")
+                        game.Players.LocalPlayer.Character.Pec1.Handle.Material = ("Air")
                         game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.TextureId = "rbxassetid://0"
                         game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Scale = Vector3.new(1.5, 1.6, 1.7)
                         game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Offset = Vector3.new(-1, 2, -0.2)
                         game.Players.LocalPlayer.Character.Pec2.Handle.CanCollide = false
                         game.Players.LocalPlayer.Character.Pec2.Handle.BrickColor = BrickColor.new("Really black")
-                        game.Players.LocalPlayer.Character.Pec2.Handle.Material = ("Plastic")
+                        game.Players.LocalPlayer.Character.Pec2.Handle.Material = ("Air")
                         game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.TextureId = "rbxassetid://0"
                         game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Scale = Vector3.new(1.5, 1.6, 1.7)
                         game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Offset = Vector3.new(-2.2, 2, -0.2)
@@ -615,7 +615,7 @@ if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R
                         game.Players.LocalPlayer.Character["German Soccerballl"].Name = "Bulge"
                         game.Players.LocalPlayer.Character.Bulge.Handle.CanCollide = false
                         game.Players.LocalPlayer.Character.Bulge.Handle.BrickColor = BrickColor.new("Really black")
-                        game.Players.LocalPlayer.Character.Bulge.Handle.Material = ("Plastic")
+                        game.Players.LocalPlayer.Character.Bulge.Handle.Material = ("Air")
                         game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.TextureId = "rbxassetid://0"
                         game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.Scale = Vector3.new(1.25, 1.3, 1.3)
                         game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.Offset  = Vector3.new(-0.8, 0.95, 1.7)
@@ -733,16 +733,16 @@ elseif game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigTy
                         game.Players.LocalPlayer.Character["Red Ball"].Name = "Pec1"
                         game.Players.LocalPlayer.Character.Pec1.Handle.CanCollide = false
                         game.Players.LocalPlayer.Character.Pec1.Handle.BrickColor = BrickColor.new("Really black")
-                        game.Players.LocalPlayer.Character.Pec1.Handle.Material = ("Plastic")
+                        game.Players.LocalPlayer.Character.Pec1.Handle.Material = ("Air")
                         game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.TextureId = "rbxassetid://0"
-                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Scale = Vector3.new(1.15, 1.1, 1.1)
-                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Offset = Vector3.new(-1, 1.8, -0.1)
+                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Scale = Vector3.new(1.3, 1.2, 1.1)
+                        game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.Offset = Vector3.new(-1.09, 1.8, -0.1)
                         game.Players.LocalPlayer.Character.Pec2.Handle.CanCollide = false
                         game.Players.LocalPlayer.Character.Pec2.Handle.BrickColor = BrickColor.new("Really black")
-                        game.Players.LocalPlayer.Character.Pec2.Handle.Material = ("Plastic")
+                        game.Players.LocalPlayer.Character.Pec2.Handle.Material = ("Air")
                         game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.TextureId = "rbxassetid://0"
-                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Scale = Vector3.new(1.15, 1.1, 1.1)
-                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Offset = Vector3.new(-2.2, 1.8, -0.1)
+                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Scale = Vector3.new(1.3, 1.2, 1.1)
+                        game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.Offset = Vector3.new(-2.11, 1.8, -0.1)
                         game.Players.LocalPlayer.Character.Pec1.Handle.SpecialMesh.MeshType = ("Sphere")
                         game.Players.LocalPlayer.Character.Pec2.Handle.SpecialMesh.MeshType = ("Sphere")
 			            function l(a, _)
@@ -802,7 +802,7 @@ elseif game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigTy
                         game.Players.LocalPlayer.Character["German Soccerballl"].Name = "Bulge"
                         game.Players.LocalPlayer.Character.Bulge.Handle.CanCollide = false
                         game.Players.LocalPlayer.Character.Bulge.Handle.BrickColor = BrickColor.new("Really black")
-                        game.Players.LocalPlayer.Character.Bulge.Handle.Material = ("Plastic")
+                        game.Players.LocalPlayer.Character.Bulge.Handle.Material = ("Air")
                         game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.TextureId = "rbxassetid://0"
                         game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.Scale = Vector3.new(1.01, 1.07, 1.1)
                         game.Players.LocalPlayer.Character.Bulge.Handle.SpecialMesh.Offset  = Vector3.new(-0.8, 0.9, 1.8)
