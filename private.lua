@@ -12,7 +12,8 @@ hookmetamethod = hookmetamethod
 getgenv().RVVZToggleKey = "["
 
 
-
+game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(rvvzshugedick)
+if rvvzshugedick == string.lower(getgenv().RVVZToggleKey) then
 function onKeyPress(inputObject, gameProcessedEvent)
 	    if inputObject.KeyCode == getgenv().RVVZToggleKey then
 game:GetService("StarterGui"):SetCore("SendNotification", {
