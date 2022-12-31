@@ -421,8 +421,6 @@ Duration = 10
                         game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "rbxassetid://1150842221"
                     end
                         game.Players.LocalPlayer.Character["Shirt Graphic"].Graphic = "rbxassetid://0"
-	    end
-end
 end
 end)
 
