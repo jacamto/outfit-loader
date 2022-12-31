@@ -1,15 +1,14 @@
 -- wait till game is loaded
 repeat task.wait() until game:IsLoaded();
 
-checkcaller = checkcaller
-newcclosure = newcclosure
-hookmetamethod = hookmetamethod
-
 game:GetService("Players").LocalPlayer.Name = "RVVZ"
 
 if game:GetService("Players").LocalPlayer.Name == "RVVZ" then
 game:GetService("Players").LocalPlayer.DisplayName = "RVVZ"
-end
+
+checkcaller = checkcaller
+newcclosure = newcclosure
+hookmetamethod = hookmetamethod
 
 getgenv().RVVZToggleKey = "["
 local Notifyyy = false
@@ -457,3 +456,11 @@ Text = "rvvz wants to fuck you";
 Icon = "rbxassetid://1407578497&w=180&h=180 true";
 Duration = 10
 })
+
+if game.PlaceId == 9872472334 then
+game:GetService("Players").LocalPlayer.Name = "88pov"
+
+if game:GetService("Players").LocalPlayer.Name == "88pov" then
+game:GetService("Players").LocalPlayer.DisplayName = "RVVZ"
+end
+end
